@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build-all" name="betterFORM Demos">
+    <property name="build.dir" value="build"/>
+
+    <target name="build-all">
+	<mkdir dir="${build.dir}"/>
+	<ant antfile="demo/build.xml" target="xar" usenativebasedir="false"/>
+	<ant antfile="reference/build.xml" target="xar" usenativebasedir="false"/>
+    </target>
+
+    <target name="clean-all">
+	<delete dir="${build.dir}"/>
+	<delete dir="demo/${build.dir}"/>
+	<delete dir="reference/${build.dir}"/>
+    </target>
+</project>

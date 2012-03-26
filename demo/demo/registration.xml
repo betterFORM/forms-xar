@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <firstname/>
+    <lastname/>
+    <alias/>
+    <email/>
+    <pass1/>
+    <pass2/>
+    <agreement>true</agreement>
+</data>
