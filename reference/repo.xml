@@ -8,11 +8,9 @@ Browser based XForms Reference with Markup-Samples and CSS Reference for the bet
     <author>Lars Windauer</author>
     <website>http://www.betterform.de</website>
     <status>stable</status>
-    <license>GNU-LGPL</license>
+    <license>BSD License</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>/db/betterform/</target>
+    <target>/db/betterform</target>
     <prepare>pre-install.xql</prepare>
-    <finish/>
-    <permissions user="betterform" password="betterform" group="bettterform" mode="0755"/>
 </meta>

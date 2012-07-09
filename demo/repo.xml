@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<repo:meta xmlns="http://exist-db.org/xquery/repo" xmlns:repo="http://exist-db.org/xquery/repo">
-    <repo:description>betterFORM XForms demos</repo:description>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>betterFORM XForms demos</description>
     <author>Tobi Krebs</author>
     <author>Robert Netzschwitz</author>
     <author>Jörn Turner</author>
     <author>Lars Windauer</author>
     <website>http://www.betterform.de</website>
     <status>stable</status>
-    <license>GNU-LGPL</license>
+    <license>BSD License</license>
     <copyright>true</copyright>
     <type>application</type>
-    <repo:target>/db/betterform/</repo:target>
-    <repo:prepare>pre-install.xql</repo:prepare>
-    <repo:finish/>
-    <repo:permissions user="betterform" password="betterform" group="betterform" mode="0755"/>    
-</repo:meta>
+    <target>/db/betterform</target>
+    <prepare>pre-install.xql</prepare>
+</meta>
