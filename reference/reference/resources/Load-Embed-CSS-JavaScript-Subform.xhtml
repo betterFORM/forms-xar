@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:bf="http://betterform.sourceforge.net/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <head>
-        <title>Load-Embed-CSS-JavaScript-Subform</title>
-        <script type="text/javascript" src="resources/script.js"/>
-        <link rel="stylesheet" type="text/css" href="resources/style.css"/>
-        <script type="text/javascript">
+<!--
+  ~ Copyright (c) 2012. betterFORM Project - http://www.betterform.de
+  ~ Licensed under the terms of BSD License
+  -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:xf="http://www.w3.org/2002/xforms"
+        >
+	<head>
+		<title>Load-Embed-CSS-JavaScript-Subform</title>
+		<script type="text/javascript" src="resources/script.js"/>
+        <link rel="stylesheet" type="text/css" href="resources/style.css" />
+
+		<script type="text/javascript">
             function test2() {
                 alert("Hello from Subform");
             }
 		</script>
+
         <style type="text/css">
             .red {
                 background: red;
@@ -18,18 +27,19 @@
                 background: blue;
             }
 		</style>
-    </head>
-    <body>
-        <div id="xforms">
-            <div style="display:none">
-                <xf:model id="model-1">
-                    <xf:instance id="i-default">
-                        <data xmlns="">
+
+	</head>
+	<body>
+		<div id="xforms">
+			<div style="display:none">
+				<xf:model id="model-1">
+					<xf:instance id="i-default">
+						<data xmlns="">
 						</data>
-                    </xf:instance>
-                </xf:model>
-            </div>
-            <xf:group>
+					</xf:instance>
+				</xf:model>
+			</div>
+			<xf:group>
                 <xf:trigger class="red">
                     <xf:label>Trigger JavaScript from JavaScript File</xf:label>
                     <xf:hint>This will only work if hit the "include"-Trigger.</xf:hint>
@@ -39,6 +49,7 @@
                         </script>
                     </xf:action>
                 </xf:trigger>
+
                 <xf:trigger class="blue">
                     <xf:label>Trigger inline Javascript</xf:label>
                     <xf:hint>This will only work if hit the "include"-Trigger.</xf:hint>
@@ -48,7 +59,7 @@
                         </script>
                     </xf:action>
                 </xf:trigger>
-            </xf:group>
-        </div>
-    </body>
+			</xf:group>
+		</div>
+	</body>
 </html>

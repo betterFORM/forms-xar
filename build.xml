@@ -2,7 +2,7 @@
 <project default="build-all" name="betterFORM Demos">
     <property name="build.dir" value="build"/>
 
-    <target name="build-all">
+    <target name="build-all" description="build all xars">
 	<mkdir dir="${build.dir}"/>
 	<ant antfile="demo/build.xml" target="xar" usenativebasedir="false"/>
 	<ant antfile="reference/build.xml" target="xar" usenativebasedir="false"/>

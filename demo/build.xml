@@ -3,6 +3,10 @@
     <property name="build.dir" value="build"/>
     <target name="xar">
         <mkdir dir="${build.dir}"/>
-        <zip basedir="." destfile="${build.dir}/betterFORM Demos-1.0.xar" excludes="${build.dir}/*"/>
+        <zip basedir="." destfile="${build.dir}/betterFORM_Demos-1.0.xar" excludes="${build.dir}/*"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
     </target>
 </project>

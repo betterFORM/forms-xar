@@ -12,4 +12,6 @@
     <type>application</type>
     <target>/db/betterform</target>
     <prepare>pre-install.xql</prepare>
+    <finish/>
+    <permissions user="admin" password="" group="dba" mode="rwxrwxr-x"/>
 </meta>

@@ -1,5 +1,10 @@
+/*
+ * Copyright (c) 2012. betterFORM Project - http://www.betterform.de
+ * Licensed under the terms of BSD License
+ */
+
 #demo .contentBody{
-	width:100%;
+    width:100%;
 }
 
 #demo #demoTarget * {
@@ -8,64 +13,64 @@
 }
 
 #demoTarget {
-	 height: 400px;
-	 overflow: auto; /*padding:10px;*/
-	 border: thin solid #bbbbbb; /*text-align:left;*/
-	 background: white;
-	 min-height: 400px;
-	 max-height: 400px;
-	 padding: 10px;
- }
+    height: 400px;
+    overflow: auto; /*padding:10px;*/
+    border: thin solid #bbbbbb; /*text-align:left;*/
+    background: white;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 10px;
+}
 
 
- .backgroundImage {
-	 width: 100%;
-	 height: 100%;
-	 background: transparent url(../images/play.png) no-repeat 50%;
- }
- #demoWrapper {
-	 position: relative;
-	 width: 750px;
-	 height: 421px;
-	 min-height: 421px;
-	 max-height: 421px;
-	 /*float: left;*/
-	 border: 1px dotted #666;
- }
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    background: transparent url(../images/play.png) no-repeat 50%;
+}
+#demoWrapper {
+    position: relative;
+    width: 750px;
+    height: 421px;
+    min-height: 421px;
+    max-height: 421px;
+    /*float: left;*/
+    border: 1px dotted #666;
+}
 
- #demoTrigger {
-	 display: none;
- }
+#demoTrigger {
+    display: none;
+}
 
 #shadowBottom {
-	top:10px;
+    top:10px;
 }
 #sub-header{
-	height:30px;
+    height:30px;
 }
 
 
 
- #content {
-	 min-height: 500px;
-	 background:white;
- }
- #backTrigger {
-	 position: absolute;
-	 float: right;
- }
- .bf .dijitButtonNode ,
- .tundra .dijitButtonNode ,
- .soria .dijitButtonNode {
-	 border:none;
- }
+#content {
+    min-height: 500px;
+    background:white;
+}
+#backTrigger {
+    position: absolute;
+    float: right;
+}
+.bf .dijitButtonNode ,
+.tundra .dijitButtonNode ,
+.soria .dijitButtonNode {
+    border:none;
+}
 
 #demoHeader{
-	background:#d3d3d3;
+    background:#d3d3d3;
 }
 #demoHeader h2{
-	margin-top:-16px;
-	padding-bottom:10px;
+    margin-top:-16px;
+    padding-bottom:10px;
 
 }
 
@@ -90,8 +95,8 @@
     clear:both;
 }
 .xfFullRepeat .xfRepeatItem {
-	display:block;
-	position:relative;
+    display:block;
+    position:relative;
 }
 .Headline {
     font-size:   16pt;
@@ -116,16 +121,15 @@
 }
 
 /* Atom Demo */
-.atomReload {
-    height: 25px;
-    width: 25px;
-    padding: 10px;
-    float: right;
+#xforms .xfContainer .atomReload {
+    height: 30px;
+    width: 30px;
+    display:inline-block!important;
 }
 
-.atomReload .dijitButtonContents {
-    height: 24px;
-    width: 27px;
+#xforms .xfContainer .atomReload .xfValue {
+    height: 29px;
+    width: 32px;
     background: url(../images/001_39.png) no-repeat 2px 2px;
 }
 
@@ -168,9 +172,13 @@
 .contactsRepeat {
     border: 1px solid black;
     padding: 5px;
-    width: 100%;	
-	display:block;
-	
+    width: 100%;
+    display:block;
+
+}
+.contactsRepeat tbody{
+    width: 100%;
+    display: table;
 }
 
 .contactsRepeat .xfRepeatHeader {
@@ -183,9 +191,13 @@
 }
 
 .contactsSubForm {
-    border: 1px solid black;
     display: block;
 }
+.contactsSubForm .xfContainer{
+    border: thin dotted #666666;
+    background: #eeeeee;
+}
+
 
 .contactsSubForm .xfGroupLabel {
     padding: 5px;
@@ -218,7 +230,7 @@
     padding-right: 15px;
 }
 
-.contactsMasterTrigger .dijitButtonContents {
+.contactsMasterTrigger .xfValue {
     background: url(../images/001_22.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -229,13 +241,13 @@
 }
 
 .contactsSubTrigger {
-    display: inline;
-    text-align: center;
+    display: block;
+    text-align: left;
     width: 210px;
     padding-right: 15px;
 }
 
-.contactsSubTrigger .dijitButtonContents {
+.contactsSubTrigger .xfValue {
     background: url(../images/001_22.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -251,9 +263,10 @@
     text-align: center;
     width: 210px;
     padding-right: 15px;
+    margin-left: 10px;
 }
 
-.contactsUpdateMasterTrigger .dijitButtonContents {
+.contactsUpdateMasterTrigger .xfValue {
     background: url(../images/001_24.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -284,8 +297,8 @@
     border: 1px solid black;
     padding: 5px;
     width: 100%;
-	clear:both;
-	display:table;
+    clear:both;
+    display:table;
 }
 
 .orderListRepeat .xfRepeatHeader {
@@ -330,7 +343,7 @@
     padding-right: 15px;
 }
 
-.orderListNewTrigger .dijitButtonContents {
+.orderListNewTrigger .xfValue {
     background: url(../images/001_47.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -347,7 +360,7 @@
     padding-right: 15px;
 }
 
-.orderListAddTrigger .dijitButtonContents {
+.orderListAddTrigger .xfValue {
     background: url(../images/001_03.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -365,7 +378,7 @@
     padding-right: 15px;
 }
 
-.orderListDelTrigger .dijitButtonContents {
+.orderListDelTrigger .xfValue {
     background: url(../images/001_04.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -383,7 +396,7 @@
     padding-right: 15px;
 }
 
-.orderListResetTrigger .dijitButtonContents {
+.orderListResetTrigger .xfValue {
     background: url(../images/001_39.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -400,7 +413,7 @@
     padding-right: 15px;
 }
 
-.orderListOKTrigger .dijitButtonContents {
+.orderListOKTrigger .xfValue {
     background: url(../images/001_06.png) no-repeat 5px 5px;
     display: inline;
     height: 30px;
@@ -417,7 +430,7 @@
     width: 150px;
 }
 
-.orderListAbortTrigger .dijitButtonContents {
+.orderListAbortTrigger .xfValue {
     background: url(../images/001_05.png) no-repeat 5px 5px;
     display: block;
     height: 30px;
@@ -456,7 +469,7 @@
     padding-left:207px;
 }
 
-.twitterReload .dijitButtonContents {
+.twitterReload .xfValue {
     background: url(../images/001_39.png) no-repeat 1px 1px;
     display: block;
     height: 23px;
@@ -469,10 +482,10 @@
     height: 23px;
     width: 50px;
     padding: 10px;
-   display: inline-block;
+    display: inline-block;
 }
 
-.twitterGo .dijitButtonContents {
+.twitterGo .xfValue {
     background: url(../images/001_60.png) no-repeat 1px 1px;
     display: block;
     height: 23px;
@@ -544,7 +557,7 @@
 }
 
 .twitterUserHeading .xfLabel {
-   font-size: 12pt !important;
+    font-size: 12pt !important;
 }
 
 .twitterUserInfo {
@@ -561,7 +574,7 @@
     font-size: 8pt;
 }
 
-.twitterPublic .dijitButtonContents {
+.twitterPublic .xfValue {
     background: url(../images/001_60-r.png) no-repeat 5px 5px;
     display: block;
     height: 32px;
