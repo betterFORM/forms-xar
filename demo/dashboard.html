@@ -355,13 +355,13 @@ sendFile =function() {
             // console.debug("sendFile.dojo.io.iframe.send");
             dojo.io.iframe.send({
 
-                url: "FileUpload",
+                url: "utils/upload-document.xql",
                 method: "post",
                 handleAs: "text",
                 form: query(".upload")[0],
                 load: function(response, ioArgs) {
                     //console.log("Upload OK", response, ioArgs);
-                    var link = dom.byId("current").childNodes[0];
+                    var link = dom.byId("current").childNodes[1];
                     // console.debug("link: ", link);
                     link.onclick();
                     return response;
@@ -391,13 +391,13 @@ createCollection = function() {
         } else {
             // console.debug("createCollection");
             iframe.send({
-                url: "FileUpload",
+                url: "utils/create-collection.xql",
                 method: "post",
                 handleAs: "text",
                 form: query(".createCollection")[0],
                 load: function(response, ioArgs) {
                     // console.log("Collection created ", response, ioArgs);
-                    var link = dom.byId("current").childNodes[0];
+                    var link = dom.byId("current").childNodes[1];
                     // console.debug("link: ", link);
                     link.onclick();
                     return response;
