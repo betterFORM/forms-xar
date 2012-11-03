@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg"
+         name="@EX_NAME@"
+         abbrev="@EX_ABBR@"
+         version="@EX_VERS@"
+         spec="@EX_SPEC@">
+    <title>@EX_TITL@</title>
+</package>

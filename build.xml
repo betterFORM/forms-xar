@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="build-all" name="betterFORM Demos">
-    <property name="build.dir" value="build"/>
+
+    <xmlproperty file="build.properties.xml" semanticAttributes="true" keepRoot="false"/>
+
+
+    <property name="target.dir" value="target"/>
+    <property name="templates.dir" value="${basedir}/templates"/>
+    <property name="demo.dir" value="${basedir}/xars/demo"/>
+    <property name="reference.dir" value="${basedir}/xars/reference"/>
+
+
 
     <target name="build-all" description="build all xars">
-	<mkdir dir="${build.dir}"/>
-	<ant antfile="demo/build.xml" target="xar" usenativebasedir="false"/>
-	<ant antfile="reference/build.xml" target="xar" usenativebasedir="false"/>
+        <mkdir dir="${target.dir}"/>
+<!--
+        <ant antfile="demo/build.xml" target="xar" usenativebasedir="false"/>
+        <ant antfile="reference/build.xml" target="xar" usenativebasedir="false"/>
+-->
     </target>
 
     <target name="clean-all">
-	<delete dir="${build.dir}"/>
-	<delete dir="demo/${build.dir}"/>
-	<delete dir="reference/${build.dir}"/>
+        <delete dir="${target.dir}"/>
+    </target>
+
+
+    <target name="filter-demo-xar" description="filter and copy template files into xars">
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${demo.expath.name}"/>
+        <filter token="EX_ABBR" value="${demo.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${demo.expath.version}"/>
+        <filter token="EX_SPEC" value="${demo.expath.spec}"/>
+        <filter token="EX_TITL" value="${demo.expath.title}"/>
+
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${demo.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+
+
+        </copy>
+
+
+
+    </target>
+    <target name="filter-reference-xar" description="filter and copy template files into xars">
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${reference.expath.name}"/>
+        <filter token="EX_ABBR" value="${reference.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${reference.expath.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${reference.expath.title}"/>
+
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${reference.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+
+
     </target>
 </project>

@@ -1,0 +1,70 @@
+<!--
+  ~ Copyright (c) 2012. betterFORM Project - http://www.betterform.de
+  ~ Licensed under the terms of BSD License
+  -->
+
+<xars>
+    <!-- COMMON PROPERTIES-->
+    <common>
+        <name>betterFORM</name>
+        <version>
+            <name>springBud</name>
+            <number>5.0rc1</number>
+        </version>
+        <templateDir>templates</templateDir>
+        <expath>
+            <spec>1.0</spec>
+        </expath>
+    </common>
+
+    <!-- betterFORM DEMO XAR -->
+    <demo>
+        <expath>
+            <name>http://betterform.de</name>
+            <abbrev>bfDemos</abbrev>
+            <version>1.0</version>
+            <title>betterFORM Demos</title>
+        </expath>
+    </demo>
+
+    <!-- betterFORM REFERENCE XAR -->
+    <reference>
+        <expath>
+            <name>betterFORM XForms Feature Explorer</name>
+            <abbrev>featureExplorer</abbrev>
+            <version>1.1</version>
+            <title>betterFORM Feature Explorer</title>
+        </expath>
+    </reference>
+
+
+    <!-- END XAR CONFIG -->
+
+    <!-- SAXON for XSL Transformations -->
+    <transform>
+        <classpath pathid="transform.class.path" description="classpath for saxon XPath and XSLT engine">
+            <pathelement location="${core.dir}/src/main/lib/saxon-9.2.1.5.jar" groupid="net.sf.saxon" version="9.2.1.5" artifactId="saxon"/>
+        </classpath>
+    </transform>
+
+    <!-- eXist Installation-->
+    <eXist>
+        <!-- point this to the place where you installed exist -->
+        <!--<home>/Applications/PSI-Configurator-V2</home>-->
+        <home>/Users/windauer/dev/eXist/eXist</home>
+        <!-- Leave this empty if you run eXist in root context -->
+        <!-- If you use the betterform XRX bundle this is 'betterform' -->
+        <context>/exist</context>
+        <!-- user name and password for the file storing tasks -->
+        <db>
+            <user>admin</user>
+            <passwd/>
+        </db>
+        <!-- Name and port of the eXist server you want to use for the file storing tasks -->
+        <server>
+            <name>localhost</name>
+            <port>8080</port>
+        </server>
+    </eXist>
+</xars>
+
