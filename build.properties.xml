@@ -19,22 +19,51 @@
 
     <!-- betterFORM DEMO XAR -->
     <demo>
+        <filename>bfDemos</filename>
+        <version>1.0</version>
+
         <expath>
             <name>http://betterform.de</name>
             <abbrev>bfDemos</abbrev>
             <version>1.0</version>
             <title>betterFORM Demos</title>
         </expath>
+        <repo>
+            <description>betterFORM Demos</description>
+            <status>stable</status>
+            <website>http://www.betterform.de</website>
+            <permissions>
+                <user>admin</user>
+                <password/>
+                <group>dba</group>
+                <mode>rwxrwxr-x</mode>
+            </permissions>
+        </repo>
     </demo>
 
     <!-- betterFORM REFERENCE XAR -->
     <reference>
+        <filename>bfReferences</filename>
+        <version>1.0</version>
         <expath>
-            <name>betterFORM XForms Feature Explorer</name>
+            <name>http://betterform.de</name>
             <abbrev>featureExplorer</abbrev>
             <version>1.1</version>
             <title>betterFORM Feature Explorer</title>
         </expath>
+
+        <repo>
+            <description>Feature Explorer: betterFORM References including Markup-Samples and more...</description>
+            <status>stable</status>
+            <website>http://www.betterform.de</website>
+            <permissions>
+                <user>admin</user>
+                <password/>
+                <group>dba</group>
+                <mode>rwxrwxr-x</mode>
+            </permissions>
+        </repo>
+
     </reference>
 
 

@@ -10,6 +10,9 @@
     <head>
         <title>Status</title>
         <style type="text/css">
+            .bf {
+                font-size:10pt;
+            }
             .welcome {
                 font-size: 14pt;
             }
@@ -20,6 +23,7 @@
                 padding:5px;
                 border:thin solid;
                 background:#F0F0FF;
+                font-size: large;
             }
 
 			.xfGroupLabel .xfGroupLabel {
@@ -79,10 +83,18 @@
 
         <xf:group appearance="bf:verticalTable" id="main">
             <xf:label>betterFORM Configuration</xf:label>
-
+            <div>Displays various betterFORM Configuration Parameters. See each section for more information</div>
+            <div>This forms demonstrates how easy it is to display XML from various resources</div>
+            <ul>
+                <li><a href="#environmentParameters">Environment Parameters</a></li>
+                <li><a href="#webxml">Web.xml Properties</a></li>
+                <li><a href="#uriResolvers">URI Resolvers</a></li>
+                <li><a href="#submissionHandlers">Submission Handlers</a></li>
+                <li><a href="#configProperties">Config Properties</a></li>
+            </ul>
             <!--<xf:group appearance="bf:verticalTable" id="environment">-->
                 <!--<xf:label>Environment Parameters</xf:label>-->
-                <div class="xfGroupLabel">Environment Parameters</div>
+                <div id="environmentParameters" class="xfGroupLabel">Environment Parameters</div>
                 <xf:output value="bf:appContext('requestURI')">
                     <xf:hint>bf:appContext('requestURI')</xf:hint>
                     <xf:label>Request-URI</xf:label>
@@ -111,7 +123,7 @@
 
             <!--<xf:group appearance="bf:verticalTable">-->
                     <!--<xf:label>web.xml Settings</xf:label>-->
-			<div class="xfGroupLabel">web.xml settings</div>
+			<div id="webxml" class="xfGroupLabel">web.xml settings</div>
                     <xf:output
                             ref="instance('webxml')/j2ee:context-param[j2ee:param-name[.='betterform.configfile']]/j2ee:param-value">
                         <xf:label>config file location</xf:label>
@@ -128,7 +140,7 @@
 
             <!--<xf:group appearance="minimal">-->
                 <!--<xf:label>configured URI Resolvers</xf:label>-->
-			<div class="xfGroupLabel">URI Resolvers</div>
+			<div id="uriResolvers" class="xfGroupLabel">URI Resolvers</div>
                 <xf:repeat nodeset="instance('i-config')/connectors/uri-resolver" appearance="compact">
                     <xf:output ref="@scheme">
                         <xf:label>URI Scheme</xf:label>
@@ -141,7 +153,7 @@
 
             <!--<xf:group appearance="minimal">-->
                 <!--<xf:label>configured Submission Handler</xf:label>-->
-			<div class="xfGroupLabel">Submission Handler</div>
+			<div id="submissionHandlers" class="xfGroupLabel">Submission Handler</div>
                 <xf:repeat nodeset="instance('i-config')/connectors/submission-handler" appearance="compact">
                     <xf:output ref="@scheme">
                         <xf:label>URI Scheme</xf:label>
@@ -152,7 +164,7 @@
                 </xf:repeat>
             <!--</xf:group>-->
 
-            <xf:group appearance="minimal">
+            <xf:group appearance="minimal" id="configProperties">
                 <xf:label>Config Properties</xf:label>
                 <xf:repeat id="properties" appearance="compact" nodeset="instance('i-config')/properties/property">
                     <xf:output ref="@name">
