@@ -175,8 +175,8 @@ declare function local:handleFile($uri as xs:string, $contextPath as xs:string, 
 	let $fileLink := if ($referenceLink eq 'Demo.xhtml' and not(contains($path, 'forms/demo'))) then ( fn:concat('forms/demo/', $referenceLink)) else ($referenceLink)
 	let $fileName := if (fn:contains($fileName, '.xhtml')) then( functx:substring-before-last($fileName, '.xhtml') ) else ( $fileName )
 	let $shortendFileName := if (fn:string-length($fileName) gt 15 and $shorten eq 'true') then (fn:concat(fn:substring($fileName,0,10), '...', fn:substring($fileName, fn:string-length($fileName) -5))) else ($fileName)  
-	let $filePath := functx:substring-before-last($uri, 'betterform/utils')
-	let $ignores := 'build.xml collection.xconf controller.xql dashboard.html expath-pkg.xml pre-install.xql repo.xml'
+	let $filePath := functx:substring-before-last($uri, 'apps/betterform/utils')
+	let $ignores := 'build.xml collection.xconf controller.xql dashboard.html expath-pkg.xml pre-install.xql repo.xml error-page.html icon.png'
 	return
 	if (fn:not(fn:contains($ignores, $fileName))) then (	
        	<div class="file">
@@ -191,7 +191,7 @@ declare function local:handleFile($uri as xs:string, $contextPath as xs:string, 
 };
 
 declare function local:generateUp($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	let $wrapperStart := if ($path eq 'betterform') then ( 'viewRoot(this,"' ) else ('viewParent(this,"')
+	let $wrapperStart := if ($path eq 'apps/betterform') then ( 'viewRoot(this,"' ) else ('viewParent(this,"')
 	let $wrapperEnd := '");'
 	let $up := functx:substring-before-last($path, '/')
 	return    
@@ -214,7 +214,7 @@ declare function local:generateUp($uri as xs:string, $contextPath as xs:string, 
 };
 
 declare function local:handleFileListing($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	if ( fn:not('betterform' eq $path) )
+	if ( fn:not('apps' eq $path or 'apps/betterform' eq $path) )
 		then(
 			<div id="bfListView">
 				{local:handleUp($uri, $contextPath, $path, $ajaxFunction)}
@@ -243,7 +243,7 @@ declare function local:generateFileListing($uri as xs:string, $contextPath as xs
 };
 
 declare function local:handleUp($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	if ( fn:not('betterform' eq $path) )
+	if ( fn:not('apps/betterform' eq $path) )
 	then (
 		local:generateUp($uri, $contextPath, $path, $ajaxFunction)
 	) else ()
@@ -276,11 +276,9 @@ declare function local:getHTMLFilesListing($uri as xs:string, $contextPath as xs
 (: Starting point similar to doGet() in FormsServlet :)
 let $ajaxFunction := request:get-parameter('ajax' , "load")
 let $fragmentParameter := request:get-parameter('fragment' , "true")
-let $path := request:get-parameter('path', 'betterform')
+let $path := request:get-parameter('path', 'apps/betterform')
 let $uri := request:get-uri()
 let $contextPath := request:get-context-path()
-
-let $uri := request:get-uri()
 
 return
 	local:getHTMLFilesListing($uri, $contextPath, $path, $ajaxFunction)
