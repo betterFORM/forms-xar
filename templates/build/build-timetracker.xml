@@ -1,0 +1,49 @@
+<project name="create timetracker xar">
+    <target name="create-timetracker-xar" depends="prepare-timetracker-xar" description="create timetracker.xar">
+        <copy todir="${timetracker.dir}" overwrite="true">
+            <fileset dir="${timetracker.src.dir}"/>
+        </copy>
+        <zip basedir="${timetracker.dir}" destfile="${target.dir}/${timetracker.filename}-${timetracker.version}.xar"/>
+    </target>
+
+
+    <target name="prepare-timetracker-xar" description="filter and copy template files into xars">
+        <copy description="filter all resources but do not(!) overwrite files"
+              todir="${timetracker.dir}"
+              overwrite="false">
+            <fileset dir="${templates.dir}"/>
+        </copy>
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${timetracker.expath.name}"/>
+        <filter token="EX_ABBR" value="${timetracker.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${timetracker.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${timetracker.expath.title}"/>
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${timetracker.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+        <!-- FILTER REPO XML -->
+        <filter token="REP_DESC" value="${timetracker.repo.description}"/>
+        <filter token="REP_STATUS" value="${timetracker.repo.status}"/>
+        <filter token="REP_WEB" value="${timetracker.repo.website}"/>
+        <filter token="REP_VERSION" value="${timetracker.version}"/>
+        <filter token="REP_TARGET" value="${timetracker.repo.target}"/>
+        <filter token="REP_LICENSE" value="${timetracker.repo.license}"/>
+        <filter token="REP_FINISH" value="${timetracker.repo.finish}"/>
+        <filter token="REP_USER" value="${timetracker.repo.permissions.user}"/>
+        <filter token="REP_PWD" value="${timetracker.repo.permissions.password}"/>
+        <filter token="REP_GROUP" value="${timetracker.repo.permissions.group}"/>
+        <filter token="REP_MODE" value="${timetracker.repo.permissions.mode}"/>
+        <copy file="${templates.dir}/repo.xml" description="filter repo.xml from templates to demo xar"
+              tofile="${timetracker.dir}/repo.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+    </target>
+
+</project>

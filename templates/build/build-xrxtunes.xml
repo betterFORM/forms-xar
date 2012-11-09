@@ -1,0 +1,49 @@
+<project name="create xrxtunes xar">
+    <target name="create-xrxtunes-xar" depends="prepare-xrxtunes-xar" description="create xrxtunes.xar">
+        <copy todir="${xrxtunes.dir}" overwrite="true">
+            <fileset dir="${xrxtunes.src.dir}"/>
+        </copy>
+        <zip basedir="${xrxtunes.dir}" destfile="${target.dir}/${xrxtunes.filename}-${xrxtunes.version}.xar"/>
+    </target>
+
+
+    <target name="prepare-xrxtunes-xar" description="filter and copy template files into xars">
+        <copy description="filter all resources but do not(!) overwrite files"
+              todir="${xrxtunes.dir}"
+              overwrite="false">
+            <fileset dir="${templates.dir}"/>
+        </copy>
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${xrxtunes.expath.name}"/>
+        <filter token="EX_ABBR" value="${xrxtunes.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${xrxtunes.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${xrxtunes.expath.title}"/>
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${xrxtunes.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+        <!-- FILTER REPO XML -->
+        <filter token="REP_DESC" value="${xrxtunes.repo.description}"/>
+        <filter token="REP_STATUS" value="${xrxtunes.repo.status}"/>
+        <filter token="REP_WEB" value="${xrxtunes.repo.website}"/>
+        <filter token="REP_VERSION" value="${xrxtunes.version}"/>
+        <filter token="REP_TARGET" value="${xrxtunes.repo.target}"/>
+        <filter token="REP_LICENSE" value="${xrxtunes.repo.license}"/>
+        <filter token="REP_FINISH" value="${xrxtunes.repo.finish}"/>
+        <filter token="REP_USER" value="${xrxtunes.repo.permissions.user}"/>
+        <filter token="REP_PWD" value="${xrxtunes.repo.permissions.password}"/>
+        <filter token="REP_GROUP" value="${xrxtunes.repo.permissions.group}"/>
+        <filter token="REP_MODE" value="${xrxtunes.repo.permissions.mode}"/>
+        <copy file="${templates.dir}/repo.xml" description="filter repo.xml from templates to demo xar"
+              tofile="${xrxtunes.dir}/repo.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+    </target>
+
+</project>

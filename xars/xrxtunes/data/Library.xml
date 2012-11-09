@@ -1,0 +1,2299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2012-11-09T19:34:35Z</date>
+	<key>Application Version</key><string>10.7</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://$path/XRXTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>9FBFA1C415F04BB9</string>
+	<key>Tracks</key>
+	<dict>
+		<key>266</key>
+		<dict>
+			<key>Track ID</key><integer>266</integer>
+			<key>Name</key><string>Fuckitup</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8805504</integer>
+			<key>Total Time</key><integer>249967</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:51:57Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:18Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1716</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AB5EF5A80C49D003</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/01%20Fuckitup.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>281</key>
+		<dict>
+			<key>Track ID</key><integer>281</integer>
+			<key>Name</key><string>Cracker Jack</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11480697</integer>
+			<key>Total Time</key><integer>329998</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:51:48Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:19Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>3043</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1AD3AEEB7919F6F8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/02%20Cracker%20Jack.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>291</key>
+		<dict>
+			<key>Track ID</key><integer>291</integer>
+			<key>Name</key><string>Music Is a Virus</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>4406202</integer>
+			<key>Total Time</key><integer>114921</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:51:43Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:20Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>2146</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1CDBBBDBA01F8420</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/03%20Music%20Is%20a%20Virus.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>301</key>
+		<dict>
+			<key>Track ID</key><integer>301</integer>
+			<key>Name</key><string>Tennisarm</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9935675</integer>
+			<key>Total Time</key><integer>283973</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:52:04Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:22Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1259</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A38106D653F3DCB0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/04%20Tennisarm.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>311</key>
+		<dict>
+			<key>Track ID</key><integer>311</integer>
+			<key>Name</key><string>Mezdeke</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6242720</integer>
+			<key>Total Time</key><integer>173943</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:04Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:23Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1741</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5CE5E84E2BA16E57</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/05%20Mezdeke.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>321</key>
+		<dict>
+			<key>Track ID</key><integer>321</integer>
+			<key>Name</key><string>Der Eiswagensong</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11526663</integer>
+			<key>Total Time</key><integer>331954</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:07Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:25Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1465</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EED26CB6DFF09A8F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/06%20Der%20Eiswagensong.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>331</key>
+		<dict>
+			<key>Track ID</key><integer>331</integer>
+			<key>Name</key><string>Me So Chacha</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8148431</integer>
+			<key>Total Time</key><integer>228958</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:52:24Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:27Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1460</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A3E69E9FB33D81E1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/07%20Me%20So%20Chacha.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>342</key>
+		<dict>
+			<key>Track ID</key><integer>342</integer>
+			<key>Name</key><string>Meine Famile</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>2702278</integer>
+			<key>Total Time</key><integer>64984</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:52:40Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:28Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1224</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>012965A865E6B7EF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/08%20Meine%20Famile.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>352</key>
+		<dict>
+			<key>Track ID</key><integer>352</integer>
+			<key>Name</key><string>Orchestral Intro (feat. sinfonia ViVA)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>3130812</integer>
+			<key>Total Time</key><integer>69299</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:52:57Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:31Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>1328</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>C7CAB7890F66D6E0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-01%20Orchestral%20Intro%20(feat.%20sinfonia%20ViVA).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>364</key>
+		<dict>
+			<key>Track ID</key><integer>364</integer>
+			<key>Name</key><string>Who Killed Goofy?</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10539614</integer>
+			<key>Total Time</key><integer>301954</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:27Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:32Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>3085</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4652A0F39FA4EFCA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/09%20Who%20Killed%20Goofy_.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>375</key>
+		<dict>
+			<key>Track ID</key><integer>375</integer>
+			<key>Name</key><string>Welcome to the World of the Plastic Beach (feat. Snoop Dogg &#38; Hypnotic Brass Ensemble)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz &#38; Snoop Dogg</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8447833</integer>
+			<key>Total Time</key><integer>215439</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:33Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:35Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>2680</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CA098D0BCCB7763C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-02%20Welcome%20to%20the%20World%20of%20the%20Plastic%20Beach%20(feat.%20Snoop%20Dogg%20&#38;%20Hypnotic%20Brass%20Ensemble).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>385</key>
+		<dict>
+			<key>Track ID</key><integer>385</integer>
+			<key>Name</key><string>Diener des Satans</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>12407632</integer>
+			<key>Total Time</key><integer>356969</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:37Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:36Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1258</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B00CD6A1ED0D8CF3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/10%20Diener%20des%20Satans.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>395</key>
+		<dict>
+			<key>Track ID</key><integer>395</integer>
+			<key>Name</key><string>Na Nu Nimm!</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8189254</integer>
+			<key>Total Time</key><integer>235781</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:42Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:38Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>2301</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>82DDEEDC3742B42D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/01%20Na%20Nu%20Nimm!.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>407</key>
+		<dict>
+			<key>Track ID</key><integer>407</integer>
+			<key>Name</key><string>White Flag (feat. Bashy, Kano &#38; The National Orchestra for Arabic Music)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz, Kano &#38; Bashy</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8983690</integer>
+			<key>Total Time</key><integer>223464</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:52Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:40Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>3589</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>38AB9A3379402F0E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-03%20White%20Flag%20(feat.%20Bashy,%20Kano%20&#38;%20The%20National%20Orchestra%20for%20Arabic%20Music).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>417</key>
+		<dict>
+			<key>Track ID</key><integer>417</integer>
+			<key>Name</key><string>Hijachin' and Seek</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6998707</integer>
+			<key>Total Time</key><integer>194952</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:57Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:41Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1476</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FCB43A722FC07302</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/11%20Hijachin'%20and%20Seek.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>427</key>
+		<dict>
+			<key>Track ID</key><integer>427</integer>
+			<key>Name</key><string>Leinenzwang</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7975660</integer>
+			<key>Total Time</key><integer>222720</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:53:51Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:42Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>2355</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>C98E3B24E71186D6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/02%20Leinenzwang.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>438</key>
+		<dict>
+			<key>Track ID</key><integer>438</integer>
+			<key>Name</key><string>Rhinestone Eyes</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7869903</integer>
+			<key>Total Time</key><integer>200097</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:08Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:45Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>4071</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>534DD3E7FB880527</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-04%20Rhinestone%20Eyes.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>464</key>
+		<dict>
+			<key>Track ID</key><integer>464</integer>
+			<key>Name</key><string>Talking Easy About the Taxes</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10930735</integer>
+			<key>Total Time</key><integer>299998</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:09Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:46Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1256</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A2A185ECD265C6BB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/12%20Talking%20Easy%20About%20the%20Taxes.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>476</key>
+		<dict>
+			<key>Track ID</key><integer>476</integer>
+			<key>Name</key><string>Sitz, Platz, Roll</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8826877</integer>
+			<key>Total Time</key><integer>247441</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:12Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:50Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>2695</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1A221CDE19B17EE9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/03%20Sitz,%20Platz,%20Roll.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>486</key>
+		<dict>
+			<key>Track ID</key><integer>486</integer>
+			<key>Name</key><string>Stylo (feat. Mos Def &#38; Bobby Womack)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Mos Def &#38; Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10961068</integer>
+			<key>Total Time</key><integer>270481</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:30Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:53Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>5392</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>72420AE28CDD40CB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-05%20Stylo%20(feat.%20Mos%20Def%20&#38;%20Bobby%20Womack).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>496</key>
+		<dict>
+			<key>Track ID</key><integer>496</integer>
+			<key>Name</key><string>Lärm der Stille</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5477019</integer>
+			<key>Total Time</key><integer>146971</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:22Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:54Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1255</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4B9A8D8C60E33BC1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/13%20La%CC%88rm%20der%20Stille.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>522</key>
+		<dict>
+			<key>Track ID</key><integer>522</integer>
+			<key>Name</key><string>Ab ins Körbchen!</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7684800</integer>
+			<key>Total Time</key><integer>225405</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:46Z</date>
+			<key>Date Added</key><date>2012-11-09T16:51:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>694</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6DC85EEE9BA78504</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/04%20Ab%20ins%20Ko%CC%88rbchen!.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>533</key>
+		<dict>
+			<key>Track ID</key><integer>533</integer>
+			<key>Name</key><string>Superfast Jellyfish (feat. Gruff Rhys &#38; De La Soul)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>De La Soul, Gorillaz &#38; Gruff Rhys</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7119693</integer>
+			<key>Total Time</key><integer>174840</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:54:41Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:00Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>5755</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F940C035F47478AD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-06%20Superfast%20Jellyfish%20(feat.%20Gruff%20Rhys%20&#38;%20De%20La%20Soul).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>544</key>
+		<dict>
+			<key>Track ID</key><integer>544</integer>
+			<key>Name</key><string>Bedlands of the Ice</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5543691</integer>
+			<key>Total Time</key><integer>217918</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:01Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:01Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1254</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>AFC9EB1B4522DF90</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/14%20Bedlands%20of%20the%20Ice.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>554</key>
+		<dict>
+			<key>Track ID</key><integer>554</integer>
+			<key>Name</key><string>Rettung</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7397167</integer>
+			<key>Total Time</key><integer>206653</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:04Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:03Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>3983</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7C473CD42739C94A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/01%20Rettung.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>564</key>
+		<dict>
+			<key>Track ID</key><integer>564</integer>
+			<key>Name</key><string>Hundehimmel</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9809651</integer>
+			<key>Total Time</key><integer>276923</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:56:54Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:04Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>3672</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FCB930B43A51B0B2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/05%20Hundehimmel.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>575</key>
+		<dict>
+			<key>Track ID</key><integer>575</integer>
+			<key>Name</key><string>Empire Ants (feat. Little Dragon)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz &#38; Yukimi Nagano</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11395895</integer>
+			<key>Total Time</key><integer>283491</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:16Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:06Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>6561</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>43B067CA8797460E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-07%20Empire%20Ants%20(feat.%20Little%20Dragon).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>585</key>
+		<dict>
+			<key>Track ID</key><integer>585</integer>
+			<key>Name</key><string>Paper</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6252986</integer>
+			<key>Total Time</key><integer>172640</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:30Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:08Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1061</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6DC0582205A4D396</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/01%20Paper.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>597</key>
+		<dict>
+			<key>Track ID</key><integer>597</integer>
+			<key>Name</key><string>Shoes Off!</string>
+			<key>Artist</key><string>Air Liquide</string>
+			<key>Album Artist</key><string>Air Liquide</string>
+			<key>Album</key><string>Music Is a Virus</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>2458593</integer>
+			<key>Total Time</key><integer>54586</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2002</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:36Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:09Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2002-05-06T07:00:00Z</date>
+			<key>Normalization</key><integer>1253</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>04BADCFAB6CFC183</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Air%20Liquide/Music%20Is%20a%20Virus/15%20Shoes%20Off!.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>607</key>
+		<dict>
+			<key>Track ID</key><integer>607</integer>
+			<key>Name</key><string>Im Club</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8221676</integer>
+			<key>Total Time</key><integer>234466</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:55:51Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:10Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>4306</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FC1927D2C48FAB6E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/02%20Im%20Club.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>617</key>
+		<dict>
+			<key>Track ID</key><integer>617</integer>
+			<key>Name</key><string>Gassigehen</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13579089</integer>
+			<key>Total Time</key><integer>351341</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:56:16Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:11Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>1663</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FD94B1416931900B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/06%20Gassigehen.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>627</key>
+		<dict>
+			<key>Track ID</key><integer>627</integer>
+			<key>Name</key><string>Glitter Freeze (feat. Mark E Smith)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz &#38; Mark E Smith</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9473443</integer>
+			<key>Total Time</key><integer>243161</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:56:40Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:14Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>7660</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>59BE6E9B88CC1A6E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-08%20Glitter%20Freeze%20(feat.%20Mark%20E%20Smith).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>637</key>
+		<dict>
+			<key>Track ID</key><integer>637</integer>
+			<key>Name</key><string>Brand New Carpet</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7504767</integer>
+			<key>Total Time</key><integer>208979</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T16:56:51Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:15Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1104</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6F672C26F5950265</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/02%20Brand%20New%20Carpet.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>647</key>
+		<dict>
+			<key>Track ID</key><integer>647</integer>
+			<key>Name</key><string>Schwebend</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6931848</integer>
+			<key>Total Time</key><integer>191080</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:57:00Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:17Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1849</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>BDC6A94A1C5F7150</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/03%20Schwebend.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>657</key>
+		<dict>
+			<key>Track ID</key><integer>657</integer>
+			<key>Name</key><string>Hundediskothek</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8507525</integer>
+			<key>Total Time</key><integer>238109</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:57:17Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:18Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>3417</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A2AC4EAC94FDE608</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/07%20Hundediskothek.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>667</key>
+		<dict>
+			<key>Track ID</key><integer>667</integer>
+			<key>Name</key><string>Some Kind of Nature (feat. Lou Reed)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz &#38; Lou Reed</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7359014</integer>
+			<key>Total Time</key><integer>179825</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:57:22Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:20Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>4327</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7E5D411B059532F4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-09%20Some%20Kind%20of%20Nature%20(feat.%20Lou%20Reed).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>677</key>
+		<dict>
+			<key>Track ID</key><integer>677</integer>
+			<key>Name</key><string>Pyramiding</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11890469</integer>
+			<key>Total Time</key><integer>343957</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T16:57:36Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:21Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1090</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7197FD7B8C09932F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/03%20Pyramiding.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>687</key>
+		<dict>
+			<key>Track ID</key><integer>687</integer>
+			<key>Name</key><string>R.I.P.</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7260077</integer>
+			<key>Total Time</key><integer>189586</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:57:49Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:23Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>3895</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5AF349D51EB3403B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/04%20R.I.P..m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>698</key>
+		<dict>
+			<key>Track ID</key><integer>698</integer>
+			<key>Name</key><string>Christmas in Paris</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13264584</integer>
+			<key>Total Time</key><integer>370746</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:58:07Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:25Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>2009</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EB3CE1C680977194</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/08%20Christmas%20in%20Paris.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>713</key>
+		<dict>
+			<key>Track ID</key><integer>713</integer>
+			<key>Name</key><string>On Melancholy Hill</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8852074</integer>
+			<key>Total Time</key><integer>233861</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:58:07Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:28Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>3871</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FE07097C7CFA5198</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-10%20On%20Melancholy%20Hill.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>728</key>
+		<dict>
+			<key>Track ID</key><integer>728</integer>
+			<key>Name</key><string>What</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7377281</integer>
+			<key>Total Time</key><integer>207539</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T16:58:23Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:30Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1148</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D058960BF95B7898</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/04%20What.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>738</key>
+		<dict>
+			<key>Track ID</key><integer>738</integer>
+			<key>Name</key><string>Kommt ein Mann in die Bar</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8230523</integer>
+			<key>Total Time</key><integer>228973</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:58:34Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:31Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1230</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>390BA5AA22888FCE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/05%20Kommt%20ein%20Mann%20in%20die%20Bar.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>748</key>
+		<dict>
+			<key>Track ID</key><integer>748</integer>
+			<key>Name</key><string>Quarantäne</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11384047</integer>
+			<key>Total Time</key><integer>328818</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:58:48Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:32Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>3365</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0A6BF8DD517AC210</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/09%20Quaranta%CC%88ne.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>758</key>
+		<dict>
+			<key>Track ID</key><integer>758</integer>
+			<key>Name</key><string>Broken</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7032378</integer>
+			<key>Total Time</key><integer>197015</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:59:13Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:36Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>5694</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F7B60BCCA0A3508C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-11%20Broken.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>769</key>
+		<dict>
+			<key>Track ID</key><integer>769</integer>
+			<key>Name</key><string>Garden Dress</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6787383</integer>
+			<key>Total Time</key><integer>189009</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T16:59:05Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:40Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1076</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D6EDE0F85B959BD6</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/05%20Garden%20Dress.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>779</key>
+		<dict>
+			<key>Track ID</key><integer>779</integer>
+			<key>Name</key><string>Weil ich es niemals so oft sagen werden</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7887473</integer>
+			<key>Total Time</key><integer>217386</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T16:59:18Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:42Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1743</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>663D40853375AB21</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/06%20Weil%20ich%20es%20niemals%20so%20oft%20sagen%20werden.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>789</key>
+		<dict>
+			<key>Track ID</key><integer>789</integer>
+			<key>Name</key><string>Hundeleben</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11940321</integer>
+			<key>Total Time</key><integer>350322</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:59:51Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:44Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>3296</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F795F4ECF7905ADB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/10%20Hundeleben.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>799</key>
+		<dict>
+			<key>Track ID</key><integer>799</integer>
+			<key>Name</key><string>Sweepstakes (feat. Mos Def &#38; Hypnotic Brass Ensemble)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Mos Def &#38; Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11124796</integer>
+			<key>Total Time</key><integer>320405</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T16:59:46Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:47Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>6802</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E101CE6234A5598F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-12%20Sweepstakes%20(feat.%20Mos%20Def%20&#38;%20Hypnotic%20Brass%20Ensemble).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>809</key>
+		<dict>
+			<key>Track ID</key><integer>809</integer>
+			<key>Name</key><string>The Net</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7642389</integer>
+			<key>Total Time</key><integer>212973</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:00:02Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:49Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1049</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Net</string>
+			<key>Persistent ID</key><string>3057344D52825597</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/06%20The%20Net.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>820</key>
+		<dict>
+			<key>Track ID</key><integer>820</integer>
+			<key>Name</key><string>Schrilles buntes Hamburg</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6920680</integer>
+			<key>Total Time</key><integer>190480</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:00:04Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:52Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>2700</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>1BC2383C2B0E9199</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/07%20Schrilles%20buntes%20Hamburg.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>830</key>
+		<dict>
+			<key>Track ID</key><integer>830</integer>
+			<key>Name</key><string>Mars Delta Theme (mit Jonni Goldblech)</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5689127</integer>
+			<key>Total Time</key><integer>144489</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:01:06Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:53Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Normalization</key><integer>4464</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>3E74352B751B758B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/11%20Mars%20Delta%20Theme%20(mit%20Jonni%20Goldblech).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>840</key>
+		<dict>
+			<key>Track ID</key><integer>840</integer>
+			<key>Name</key><string>Plastic Beach (feat. Mick Jones &#38; Paul Simonon)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8810312</integer>
+			<key>Total Time</key><integer>227149</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:00:14Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:54Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>4679</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>8112B49934B72A7F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-13%20Plastic%20Beach%20(feat.%20Mick%20Jones%20&#38;%20Paul%20Simonon).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>850</key>
+		<dict>
+			<key>Track ID</key><integer>850</integer>
+			<key>Name</key><string>And Patience</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8753578</integer>
+			<key>Total Time</key><integer>245759</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:00:23Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:55Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1162</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>090CBC6D1E901BAD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/07%20And%20Patience.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>874</key>
+		<dict>
+			<key>Track ID</key><integer>874</integer>
+			<key>Name</key><string>Nach Süden</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7930385</integer>
+			<key>Total Time</key><integer>212573</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:00:38Z</date>
+			<key>Date Added</key><date>2012-11-09T16:52:59Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1230</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>212D9A6055AC621C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/08%20Nach%20Su%CC%88den.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>885</key>
+		<dict>
+			<key>Track ID</key><integer>885</integer>
+			<key>Name</key><string>Hundediskothek (Spargelessen)</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Musikvideos</string>
+			<key>Kind</key><string>Purchased MPEG-4 video file</string>
+			<key>Size</key><integer>53410237</integer>
+			<key>Total Time</key><integer>242440</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:02:38Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:00Z</date>
+			<key>Bit Rate</key><integer>239</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>0562CADAD311DAD1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>360</integer>
+			<key>Music Video</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/12%20Hundediskothek%20(Spargelessen).m4v</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>898</key>
+		<dict>
+			<key>Track ID</key><integer>898</integer>
+			<key>Name</key><string>To Binge (feat. Little Dragon)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz &#38; Yukimi Nagano</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9155265</integer>
+			<key>Total Time</key><integer>235684</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:01:06Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:03Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>3005</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6FD4ADB2FD85E6DE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-14%20To%20Binge%20(feat.%20Little%20Dragon).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>910</key>
+		<dict>
+			<key>Track ID</key><integer>910</integer>
+			<key>Name</key><string>Hotel</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8303525</integer>
+			<key>Total Time</key><integer>234684</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:01:32Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:05Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1170</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>854FC5DE4A67B3EF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/08%20Hotel.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>934</key>
+		<dict>
+			<key>Track ID</key><integer>934</integer>
+			<key>Name</key><string>In deinen Armen</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7112684</integer>
+			<key>Total Time</key><integer>199026</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:01:34Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:10Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1758</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A4CC0C5C71C2A35C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/09%20In%20deinen%20Armen.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>956</key>
+		<dict>
+			<key>Track ID</key><integer>956</integer>
+			<key>Name</key><string>Ab ins Körbchen! (Cornwall)</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased MPEG-4 video file</string>
+			<key>Size</key><integer>52133742</integer>
+			<key>Total Time</key><integer>232400</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:03:09Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:13Z</date>
+			<key>Bit Rate</key><integer>230</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6D2AF6B7FB5B4C69</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>360</integer>
+			<key>Music Video</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/13%20Ab%20ins%20Ko%CC%88rbchen!%20(Cornwall).m4v</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>989</key>
+		<dict>
+			<key>Track ID</key><integer>989</integer>
+			<key>Name</key><string>Cloud of Unknowing (feat. Bobby Womack &#38; sinfonia ViVA)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6723600</integer>
+			<key>Total Time</key><integer>186108</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:02:14Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:18Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>1572</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4F311A49D607E592</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-15%20Cloud%20of%20Unknowing%20(feat.%20Bobby%20Womack%20&#38;%20sinfonia%20ViVA).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1010</key>
+		<dict>
+			<key>Track ID</key><integer>1010</integer>
+			<key>Name</key><string>Sea Foam</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8538386</integer>
+			<key>Total Time</key><integer>241719</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:02:52Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:20Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1121</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>321816915E89AEB7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/09%20Sea%20Foam.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1033</key>
+		<dict>
+			<key>Track ID</key><integer>1033</integer>
+			<key>Name</key><string>Der apokalyptische Reiter und das besorgte Pferd</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6680601</integer>
+			<key>Total Time</key><integer>178213</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:04:00Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:23Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>3007</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>724E1C9F119EDCE8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/10%20Der%20apokalyptische%20Reiter%20und%20das%20besorgte%20Pferd.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1043</key>
+		<dict>
+			<key>Track ID</key><integer>1043</integer>
+			<key>Name</key><string>Quarantäne (Zahnarzt)</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased MPEG-4 video file</string>
+			<key>Size</key><integer>48161019</integer>
+			<key>Total Time</key><integer>215200</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:04:38Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:24Z</date>
+			<key>Bit Rate</key><integer>243</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>54FAC5D314E59C06</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>360</integer>
+			<key>Music Video</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/14%20Quaranta%CC%88ne%20(Zahnarzt).m4v</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1054</key>
+		<dict>
+			<key>Track ID</key><integer>1054</integer>
+			<key>Name</key><string>Pirate Jet</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6142016</integer>
+			<key>Total Time</key><integer>152398</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:03:24Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:26Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>2872</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>71B26ABC43AD3DDB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-16%20Pirate%20Jet.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1065</key>
+		<dict>
+			<key>Track ID</key><integer>1065</integer>
+			<key>Name</key><string>Friends</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13880862</integer>
+			<key>Total Time</key><integer>404398</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:03:59Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:28Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1086</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>074D2B84B6B8CD4F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/10%20Friends.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1075</key>
+		<dict>
+			<key>Track ID</key><integer>1075</integer>
+			<key>Name</key><string>Erkenschwick</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8022604</integer>
+			<key>Total Time</key><integer>218773</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:04:35Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:29Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1230</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>EE1297AC3E9AFFD3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/11%20Erkenschwick.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1085</key>
+		<dict>
+			<key>Track ID</key><integer>1085</integer>
+			<key>Name</key><string>Mars Delta Trailer</string>
+			<key>Artist</key><string>J.F. Sebastian</string>
+			<key>Album Artist</key><string>J.F. Sebastian</string>
+			<key>Album</key><string>Hundeleben (Bonus Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased MPEG-4 video file</string>
+			<key>Size</key><integer>24410405</integer>
+			<key>Total Time</key><integer>103240</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:04:51Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:30Z</date>
+			<key>Bit Rate</key><integer>235</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-10-22T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>96FF7F70DE3A8F6F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>360</integer>
+			<key>Music Video</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/J.F.%20Sebastian/Hundeleben%20(Bonus%20Edition)/15%20Mars%20Delta%20Trailer.m4v</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1096</key>
+		<dict>
+			<key>Track ID</key><integer>1096</integer>
+			<key>Name</key><string>Pirate's Progress</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8419582</integer>
+			<key>Total Time</key><integer>242773</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:04:56Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:32Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>4996</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>84230256205DB392</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-17%20Pirate's%20Progress.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1107</key>
+		<dict>
+			<key>Track ID</key><integer>1107</integer>
+			<key>Name</key><string>Bazar (Bonustrack)</string>
+			<key>Artist</key><string>Bodi Bill</string>
+			<key>Album Artist</key><string>Bodi Bill</string>
+			<key>Composer</key><string>Fenk, Fabian; Feist, Anton; Stolze, Alexander</string>
+			<key>Album</key><string>What? (Bonus Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11511486</integer>
+			<key>Total Time</key><integer>332163</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2012-11-09T17:05:08Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:34Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1074</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B8069F07C29D0A21</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Bodi%20Bill/What_%20(Bonus%20Version)/11%20Bazar%20(Bonustrack).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1117</key>
+		<dict>
+			<key>Track ID</key><integer>1117</integer>
+			<key>Name</key><string>Zurück aus Ohlsdorf</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7290276</integer>
+			<key>Total Time</key><integer>204000</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:05:11Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:36Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>1230</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>6A5DCA3C58487E81</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/12%20Zuru%CC%88ck%20aus%20Ohlsdorf.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1128</key>
+		<dict>
+			<key>Track ID</key><integer>1128</integer>
+			<key>Name</key><string>Three Hearts, Seven Seas, Twelve Moons</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Composer</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>4935869</integer>
+			<key>Total Time</key><integer>134542</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>18</integer>
+			<key>Track Count</key><integer>18</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:05:16Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:39Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Normalization</key><integer>952</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B92F90CDB754B4DC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/1-18%20Three%20Hearts,%20Seven%20Seas,%20Twelve%20Moons.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1138</key>
+		<dict>
+			<key>Track ID</key><integer>1138</integer>
+			<key>Name</key><string>3.26</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8470336</integer>
+			<key>Total Time</key><integer>231173</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:05:23Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:41Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>5080</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2BA409992AD26AB0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/13%203.26.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1185</key>
+		<dict>
+			<key>Track ID</key><integer>1185</integer>
+			<key>Name</key><string>Ein Zimmer</string>
+			<key>Artist</key><string>Kettcar</string>
+			<key>Album Artist</key><string>Kettcar</string>
+			<key>Album</key><string>Zwischen den Runden (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8218406</integer>
+			<key>Total Time</key><integer>233120</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-11-09T17:05:49Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:48Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2012-02-10T08:00:00Z</date>
+			<key>Normalization</key><integer>2482</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>59C4DAA3135E8EEA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Kettcar/Zwischen%20den%20Runden%20(Deluxe%20Version)/14%20Ein%20Zimmer.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1195</key>
+		<dict>
+			<key>Track ID</key><integer>1195</integer>
+			<key>Name</key><string>Stylo (feat. Mos Def &#38; Bobby Womack)</string>
+			<key>Artist</key><string>Gorillaz</string>
+			<key>Album Artist</key><string>Gorillaz</string>
+			<key>Album</key><string>Plastic Beach</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>Purchased MPEG-4 video file</string>
+			<key>Size</key><integer>67581088</integer>
+			<key>Total Time</key><integer>301480</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2012-11-09T17:06:47Z</date>
+			<key>Date Added</key><date>2012-11-09T16:53:50Z</date>
+			<key>Bit Rate</key><integer>243</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-03-05T08:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F648B3F0274E807D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>264</integer>
+			<key>Music Video</key><true/>
+			<key>Location</key><string>file://$path/XRXTunes/iTunes%20Media/Music/Gorillaz/Plastic%20Beach/01%20Stylo%20(feat.%20Mos%20Def%20&#38;%20Bobby%20Womack).m4v</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Top 25 Most Played</string>
+			<key>Playlist ID</key><integer>84</integer>
+			<key>Playlist Persistent ID</key><string>CFA3464F97DB1BFD</string>
+			<key>Distinguished Kind</key><integer>202</integer>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+			AQEBAwAAABkAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+			U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkCAAABAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+			AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAAAEAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA
+			AAAAAAAA
+			</data>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<project name="create @APP_NAME@ xar">
+    <target name="create-@APP_NAME@-xar" depends="prepare-@APP_NAME@-xar" description="create @APP_NAME@.xar">
+        <copy todir="${@APP_NAME@.dir}" overwrite="true">
+            <fileset dir="${@APP_NAME@.src.dir}"/>
+        </copy>
+        <zip basedir="${@APP_NAME@.dir}" destfile="${target.dir}/${@APP_NAME@.filename}-${@APP_NAME@.version}.xar"/>
+    </target>
+
+
+    <target name="prepare-@APP_NAME@-xar" description="filter and copy template files into xars">
+        <copy description="filter all resources but do not(!) overwrite files"
+              todir="${@APP_NAME@.dir}"
+              overwrite="false">
+            <fileset dir="${templates.dir}"/>
+        </copy>
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${@APP_NAME@.expath.name}"/>
+        <filter token="EX_ABBR" value="${@APP_NAME@.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${@APP_NAME@.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${@APP_NAME@.expath.title}"/>
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${@APP_NAME@.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+        <!-- FILTER REPO XML -->
+        <filter token="REP_DESC" value="${@APP_NAME@.repo.description}"/>
+        <filter token="REP_STATUS" value="${@APP_NAME@.repo.status}"/>
+        <filter token="REP_WEB" value="${@APP_NAME@.repo.website}"/>
+        <filter token="REP_VERSION" value="${@APP_NAME@.version}"/>
+        <filter token="REP_TARGET" value="${@APP_NAME@.repo.target}"/>
+        <filter token="REP_LICENSE" value="${@APP_NAME@.repo.license}"/>
+        <filter token="REP_FINISH" value="${@APP_NAME@.repo.finish}"/>
+        <filter token="REP_USER" value="${@APP_NAME@.repo.permissions.user}"/>
+        <filter token="REP_PWD" value="${@APP_NAME@.repo.permissions.password}"/>
+        <filter token="REP_GROUP" value="${@APP_NAME@.repo.permissions.group}"/>
+        <filter token="REP_MODE" value="${@APP_NAME@.repo.permissions.mode}"/>
+        <copy file="${templates.dir}/repo.xml" description="filter repo.xml from templates to demo xar"
+              tofile="${@APP_NAME@.dir}/repo.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+    </target>
+
+</project>

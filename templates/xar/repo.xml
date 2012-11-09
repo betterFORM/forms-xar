@@ -6,12 +6,13 @@
     <author>Jörn Turner</author>
     <author>Lars Windauer</author>
     <website>@REP_WEB@</website>
+    <version>@REP_VERSION@</version>
     <status>@REP_STATUS@</status>
-    <license>BSD License</license>
+    <license>@REP_LICENSE@</license>
     <copyright>true</copyright>
     <type>application</type>
-    <target>/db/betterform</target>
+    <target>@REP_TARGET@</target>
     <prepare>pre-install.xql</prepare>
-    <finish/>
+    <finish>@REP_FINISH@</finish>
     <permissions user="@REP_USER@" password="@REP_PWD@" group="@REP_GROUP@" mode="@REP_MODE@"/>
 </meta>

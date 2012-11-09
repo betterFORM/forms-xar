@@ -1,0 +1,49 @@
+<project name="create demo xar">
+    <target name="create-demo-xar" depends="prepare-demo-xar" description="create demo.xar">
+        <copy todir="${demo.dir}" overwrite="true">
+            <fileset dir="${demo.src.dir}"/>
+        </copy>
+        <zip basedir="${demo.dir}" destfile="${target.dir}/${demo.filename}-${demo.version}.xar"/>
+    </target>
+
+
+    <target name="prepare-demo-xar" description="filter and copy template files into xars">
+        <copy description="filter all resources but do not(!) overwrite files"
+              todir="${demo.dir}"
+              overwrite="false">
+            <fileset dir="${templates.dir}"/>
+        </copy>
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${demo.expath.name}"/>
+        <filter token="EX_ABBR" value="${demo.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${demo.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${demo.expath.title}"/>
+        <copy description="filter expath-pkg.xml from templates to demo xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${demo.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+        <!-- FILTER REPO XML -->
+        <filter token="REP_DESC" value="${demo.repo.description}"/>
+        <filter token="REP_STATUS" value="${demo.repo.status}"/>
+        <filter token="REP_WEB" value="${demo.repo.website}"/>
+        <filter token="REP_VERSION" value="${demo.version}"/>
+        <filter token="REP_TARGET" value="${demo.repo.target}"/>
+        <filter token="REP_LICENSE" value="${demo.repo.license}"/>
+        <filter token="REP_FINISH" value="${demo.repo.finish}"/>
+        <filter token="REP_USER" value="${demo.repo.permissions.user}"/>
+        <filter token="REP_PWD" value="${demo.repo.permissions.password}"/>
+        <filter token="REP_GROUP" value="${demo.repo.permissions.group}"/>
+        <filter token="REP_MODE" value="${demo.repo.permissions.mode}"/>
+        <copy file="${templates.dir}/repo.xml" description="filter repo.xml from templates to demo xar"
+              tofile="${demo.dir}/repo.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+    </target>
+
+</project>
