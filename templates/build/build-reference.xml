@@ -16,7 +16,7 @@
 
         <!-- EXPath Properties -->
         <filter token="EX_NAME" value="${reference.expath.name}"/>
-        <filter token="EX_ABBR" value="${reference.expath.abbrev}"/>
+        <filter token="EX_ABBR" value="${reference.filename}"/>
         <filter token="EX_VERS" value="${reference.version}"/>
         <filter token="EX_SPEC" value="${common.expath.spec}"/>
         <filter token="EX_TITL" value="${reference.expath.title}"/>

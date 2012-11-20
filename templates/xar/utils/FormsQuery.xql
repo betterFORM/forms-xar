@@ -4,6 +4,11 @@ declare namespace request="http://exist-db.org/xquery/request";
 declare namespace functx = "http://www.functx.com";
 declare namespace xmldb="http://exist-db.org/xquery/xmldb";
 
+
+import module namespace config="http://exist-db.org/xquery/apps/config" at "../modules/config.xqm";
+
+declare variable $local:app-name := 'betterform';
+
 (:
         todo: the hard-coded '/bfResources' should be replaced with a config param
 :)
@@ -40,10 +45,22 @@ return
 	</div>
 	
 	) else (
-		<div class="pathName">
-			<a href="#" onclick="{fn:concat($wrapperStart, local:getRequestURI($uri, $currentPath), '&amp;fragment=true&amp;ajax=', $ajaxFunction, $wrapperEnd)}">{ if ($step eq '') then ('/') else ($step)}</a>
-		</div>
-		)
+	    let $pathBeforeBf := substring-before($path, $betterform)
+	    return
+	    if(contains($pathBeforeBf, $step)
+	    then (
+            <div class="pathName">
+                <span>{if ($step eq '') then ('/') else ($step)}</span>
+            </div>
+
+	    )
+	    else (
+	    		<div class="pathName">
+        			<a href="#" onclick="{fn:concat($wrapperStart, local:getRequestURI($uri, $currentPath), '&amp;fragment=true&amp;ajax=', $ajaxFunction, $wrapperEnd)}">{$step}</a>
+        		</div>
+
+        )
+    )
 };
 declare function local:generateCrumbs($uri as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
 	let $wrapperStart := "viewParent(this, '"
@@ -170,12 +187,12 @@ declare function local:getIconForExtension($fileName as xs:string) as xs:string 
 
 declare function local:handleFile($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string, $fileName as xs:string, $shorten as xs:string) {
 	let $icon := local:getIconForExtension($fileName)
-	let $timetrackerLink := if ($fileName eq 'TimeTracker.xhtml') then ( 'apps/timetracker/index.xql') else ($fileName)
+	let $timetrackerLink := if ($fileName eq 'TimeTracker.xhtml') then (concat(substring-before($config:app-root,$local:app-name ), 'timetracker/index.xql')) else ($fileName)
 	let $referenceLink := if ($timetrackerLink eq 'FeatureExplorer.xhtml' and not(contains($path, 'reference'))) then ( fn:concat('reference/', $fileName)) else ($timetrackerLink)
 	let $fileLink := if ($referenceLink eq 'Demo.xhtml' and not(contains($path, 'forms/demo'))) then ( fn:concat('forms/demo/', $referenceLink)) else ($referenceLink)
 	let $fileName := if (fn:contains($fileName, '.xhtml')) then( functx:substring-before-last($fileName, '.xhtml') ) else ( $fileName )
 	let $shortendFileName := if (fn:string-length($fileName) gt 15 and $shorten eq 'true') then (fn:concat(fn:substring($fileName,0,10), '...', fn:substring($fileName, fn:string-length($fileName) -5))) else ($fileName)  
-	let $filePath := functx:substring-before-last($uri, 'apps/betterform/utils')
+	let $filePath := concat($contextPath,'/')
 	let $ignores := 'build.xml collection.xconf controller.xql dashboard.html expath-pkg.xml pre-install.xql repo.xml error-page.html icon.png'
 	return
 	if (fn:not(fn:contains($ignores, $fileName))) then (	
@@ -191,7 +208,8 @@ declare function local:handleFile($uri as xs:string, $contextPath as xs:string, 
 };
 
 declare function local:generateUp($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	let $wrapperStart := if ($path eq 'apps/betterform') then ( 'viewRoot(this,"' ) else ('viewParent(this,"')
+    let $rootPath := substring-after($config:app-root,'/db/')
+	let $wrapperStart := if ($path eq $rootPath) then ( 'viewRoot(this,"' ) else ('viewParent(this,"')
 	let $wrapperEnd := '");'
 	let $up := functx:substring-before-last($path, '/')
 	return    
@@ -214,7 +232,7 @@ declare function local:generateUp($uri as xs:string, $contextPath as xs:string, 
 };
 
 declare function local:handleFileListing($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	if ( fn:not('apps' eq $path or 'apps/betterform' eq $path) )
+	if (not(ends-with($path, $local:app-name )) and contains($path,$local:app-name ))
 		then(
 			<div id="bfListView">
 				{local:handleUp($uri, $contextPath, $path, $ajaxFunction)}
@@ -243,7 +261,9 @@ declare function local:generateFileListing($uri as xs:string, $contextPath as xs
 };
 
 declare function local:handleUp($uri as xs:string, $contextPath as xs:string, $path as xs:string, $ajaxFunction as xs:string) {
-	if ( fn:not('apps/betterform' eq $path) )
+    let $rootPath := substring-after($config:app-root,'/db/')
+    return
+	if ( fn:not($rootPath eq $path))
 	then (
 		local:generateUp($uri, $contextPath, $path, $ajaxFunction)
 	) else ()
@@ -255,6 +275,13 @@ declare function local:getHTMLFilesListing($uri as xs:string, $contextPath as xs
 	return
 	<div class="bfFormBrowser" style="width:800px">
 		<div class="formBrowserHead">
+            
+                <div>AppRoot: {$config:app-root}</div>
+                <div>Path: {$path}</div>
+                <div>URI: {$uri}</div>
+                <div>ContextPath: {$contextPath}</div>
+            
+        
 			<div class="formBrowserHeader">
 			 	  {local:generateCrumbs($uri, $path, $ajaxFunction)}
             </div>
@@ -276,7 +303,8 @@ declare function local:getHTMLFilesListing($uri as xs:string, $contextPath as xs
 (: Starting point similar to doGet() in FormsServlet :)
 let $ajaxFunction := request:get-parameter('ajax' , "load")
 let $fragmentParameter := request:get-parameter('fragment' , "true")
-let $path := request:get-parameter('path', 'apps/betterform')
+let $appRoot := request:get-parameter('path', $config:app-root)
+let $path := if(starts-with($appRoot, '/db/')) then (substring-after($appRoot,'/db/')) else ($appRoot)
 let $uri := request:get-uri()
 let $contextPath := request:get-context-path()
 

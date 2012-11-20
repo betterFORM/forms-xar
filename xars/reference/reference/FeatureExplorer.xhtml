@@ -262,22 +262,24 @@
         <!-- ############### textarea trigger ################# -->
         <!-- ############### textarea trigger ################# -->
         <!-- ############### textarea trigger ################# -->
+<!--
         <xf:trigger id="textareaGrowingTrigger">
             <xf:label/>
             <xf:load show="embed" targetid="xforms">
                 <xf:resource value="'TextareaGrowing.xhtml#xforms'"/>
             </xf:load>
         </xf:trigger>
-        <xf:trigger id="textareaHTMLTrigger">
-            <xf:label/>
-            <xf:load show="embed" targetid="xforms">
-                <xf:resource value="'TextareaHTML.xhtml#xforms'"/>
-            </xf:load>
-        </xf:trigger>
+-->
         <xf:trigger id="textareaSimpleTrigger">
             <xf:label/>
             <xf:load show="embed" targetid="xforms">
                 <xf:resource value="'TextareaSimple.xhtml#xforms'"/>
+            </xf:load>
+        </xf:trigger>
+        <xf:trigger id="textareaHTMLTrigger">
+            <xf:label/>
+            <xf:load show="embed" targetid="xforms">
+                <xf:resource value="'TextareaHTML.xhtml#xforms'"/>
             </xf:load>
         </xf:trigger>
 
@@ -589,12 +591,14 @@
                 <div data-dojo-type="dijit.PopupMenuItem" label="Textarea">
 
                     <div data-dojo-type="dijit.Menu">
+<!--
                         <div data-dojo-type="dijit.MenuItem"
                              onClick="hideStatic();fluxProcessor.dispatchEvent('textareaGrowingTrigger');" label="growing textarea"/>
-                        <div data-dojo-type="dijit.MenuItem"
-                             onClick="hideStatic();fluxProcessor.dispatchEvent('textareaHTMLTrigger');" label="simple HTML editor"/>
+-->
                         <div data-dojo-type="dijit.MenuItem"
                              onClick="hideStatic();fluxProcessor.dispatchEvent('textareaSimpleTrigger');" label="simple textarea"/>
+                        <div data-dojo-type="dijit.MenuItem"
+                             onClick="hideStatic();fluxProcessor.dispatchEvent('textareaHTMLTrigger');" label="simple HTML editor"/>
                     </div>
                 </div>
 

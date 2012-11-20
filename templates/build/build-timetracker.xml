@@ -16,7 +16,7 @@
 
         <!-- EXPath Properties -->
         <filter token="EX_NAME" value="${timetracker.expath.name}"/>
-        <filter token="EX_ABBR" value="${timetracker.expath.abbrev}"/>
+        <filter token="EX_ABBR" value="${timetracker.filename}"/>
         <filter token="EX_VERS" value="${timetracker.version}"/>
         <filter token="EX_SPEC" value="${common.expath.spec}"/>
         <filter token="EX_TITL" value="${timetracker.expath.title}"/>

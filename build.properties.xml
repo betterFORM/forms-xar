@@ -28,7 +28,7 @@
 
         <expath>
             <name>http://www.betterfrom.de/apps/demos</name>
-            <abbrev>bfDemos</abbrev>
+            <!--<abbrev>bfDemos</abbrev>-->
             <title>betterFORM Demos</title>
         </expath>
         <repo>
@@ -57,7 +57,7 @@
         <version>1.1</version>
         <expath>
             <name>http://www.betterfrom.de/apps/featureexplorer</name>
-            <abbrev>featureExplorer</abbrev>
+            <!--<abbrev>featureExplorer</abbrev>-->
             <title>betterFORM Feature Explorer</title>
         </expath>
 
@@ -88,7 +88,7 @@
         <version>0.9</version>
         <expath>
             <name>http://www.betterfrom.de/apps/timetracker</name>
-            <abbrev>betterFORM Timetracker</abbrev>
+            <!--<abbrev>betterFORM Timetracker</abbrev>-->
             <title>Timetracker</title>
         </expath>
         <repo>
@@ -117,7 +117,7 @@
         <version>0.9</version>
         <expath>
             <name>http://www.betterfrom.de/apps/xrxtunes</name>
-            <abbrev>betterFORM XRX Tunes</abbrev>
+            <!--<abbrev>betterFORM XRX Tunes</abbrev>-->
             <title>XRXTunes</title>
         </expath>
         <repo>
