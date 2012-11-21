@@ -39,15 +39,15 @@ for $step at $count in $steps
 let $currentPath := fn:string-join(fn:subsequence($steps, 0, $count+1), '/')
 return
     if ( $count = fn:count($steps) )
-	then (
+    then (
 	<div class="pathName" id="current">
 		<a href="#" onclick="{fn:concat($wrapperStart, local:getRequestURI($uri, $currentPath), '&amp;fragment=true&amp;ajax=', $ajaxFunction, $wrapperEnd)}">{$step}</a>
 	</div>
 	
 	) else (
-	    let $pathBeforeBf := substring-before($path, $betterform)
-	    return
-	    if(contains($pathBeforeBf, $step)
+	    let $pathBeforeBf := substring-before($path, $local:app-name)
+	    return 
+	    if(contains($pathBeforeBf, $step))
 	    then (
             <div class="pathName">
                 <span>{if ($step eq '') then ('/') else ($step)}</span>
