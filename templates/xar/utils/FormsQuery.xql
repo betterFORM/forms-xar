@@ -276,11 +276,12 @@ declare function local:getHTMLFilesListing($uri as xs:string, $contextPath as xs
 	<div class="bfFormBrowser" style="width:800px">
 		<div class="formBrowserHead">
             
+<!--
                 <div>AppRoot: {$config:app-root}</div>
                 <div>Path: {$path}</div>
                 <div>URI: {$uri}</div>
                 <div>ContextPath: {$contextPath}</div>
-            
+-->            
         
 			<div class="formBrowserHeader">
 			 	  {local:generateCrumbs($uri, $path, $ajaxFunction)}
