@@ -36,7 +36,7 @@
             <status>stable</status>
             <website>http://www.betterfrom.de</website>
             <license>BSD License</license>
-            <target>/db/betterform-xforms</target>
+            <target>/db/betterform</target>
             <finish/>
             <permissions>
                 <user>admin</user>
