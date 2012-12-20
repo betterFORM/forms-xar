@@ -1,0 +1,49 @@
+<project name="create xforms xar">
+    <target name="create-xforms-xar" depends="prepare-xforms-xar" description="create xforms.xar">
+        <copy todir="${xforms.dir}" overwrite="true">
+            <fileset dir="${xforms.src.dir}"/>
+        </copy>
+        <zip basedir="${xforms.dir}" destfile="${target.dir}/${xforms.filename}-${xforms.version}.xar"/>
+    </target>
+
+
+    <target name="prepare-xforms-xar" description="filter and copy template files into xars">
+        <copy description="filter all resources but do not(!) overwrite files"
+              todir="${xforms.dir}"
+              overwrite="false">
+            <fileset dir="${templates.dir}"/>
+        </copy>
+
+        <!-- EXPath Properties -->
+        <filter token="EX_NAME" value="${xforms.expath.name}"/>
+        <filter token="EX_ABBR" value="${xforms.expath.abbrev}"/>
+        <filter token="EX_VERS" value="${xforms.version}"/>
+        <filter token="EX_SPEC" value="${common.expath.spec}"/>
+        <filter token="EX_TITL" value="${xforms.expath.title}"/>
+        <copy description="filter expath-pkg.xml from templates to xforms xar"
+              file="${templates.dir}/expath-pkg.xml"
+              tofile="${xforms.dir}/expath-pkg.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+
+        <!-- FILTER REPO XML -->
+        <filter token="REP_DESC" value="${xforms.repo.description}"/>
+        <filter token="REP_STATUS" value="${xforms.repo.status}"/>
+        <filter token="REP_WEB" value="${xforms.repo.website}"/>
+        <filter token="REP_VERSION" value="${xforms.version}"/>
+        <filter token="REP_TARGET" value="${xforms.repo.target}"/>
+        <filter token="REP_LICENSE" value="${xforms.repo.license}"/>
+        <filter token="REP_FINISH" value="${xforms.repo.finish}"/>
+        <filter token="REP_USER" value="${xforms.repo.permissions.user}"/>
+        <filter token="REP_PWD" value="${xforms.repo.permissions.password}"/>
+        <filter token="REP_GROUP" value="${xforms.repo.permissions.group}"/>
+        <filter token="REP_MODE" value="${xforms.repo.permissions.mode}"/>
+        <copy file="${templates.dir}/repo.xml" description="filter repo.xml from templates to xforms xar"
+              tofile="${xforms.dir}/repo.xml"
+              overwrite="true"
+              filtering="true">
+        </copy>
+    </target>
+
+</project>

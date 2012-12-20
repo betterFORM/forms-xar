@@ -10,7 +10,7 @@ declare option exist:serialize "method=xhtml media-type=application/xhtml+html";
 
 
 declare function local:numberOfAlbums() as xs:integer {
-    count(collection('/db/betterform/apps/querytunes/data')//album)
+    count(collection('/db/querytunes/data')//album)
 };
 
 let $contextPath := request:get-context-path()
@@ -41,7 +41,7 @@ return
                     </xf:bind>
 
                     <xf:submission id="s-query-albums"
-                                    resource="{$contextPath}/rest/db/betterform/apps/querytunes/view/list-itunes-albums.xql"
+                                    resource="{$contextPath}/rest/db/querytunes/view/list-itunes-albums.xql"
                                     method="get"
                                     replace="embedHTML"
                                     targetid="embedInline"
@@ -82,7 +82,7 @@ return
                     <xf:label>Show Album</xf:label>
                     <xf:action>
                         <xf:load show="embed" targetid="embedDialog">
-                            <xf:resource value="concat('{$contextPath}/rest/db/betterform/apps/querytunes/view/view-album.xql#xforms?album=',instance('i-controller')/currentAlbum)"/>
+                            <xf:resource value="concat('{$contextPath}/rest/db/querytunes/view/view-album.xql#xforms?album=',instance('i-controller')/currentAlbum)"/>
                         </xf:load>
                     </xf:action>
                 </xf:trigger>
@@ -97,7 +97,7 @@ return
             <!-- ######################### Content ################################## -->
             <div id="content">
                 <div id="header">
-                    <a id="linklogo" href="http://www.betterform.de"><img src="{$contextPath}/rest/db/betterform/apps/timetracker/resources/images/bf_logo_201x81.png" alt="betterFORM"/></a>
+                    <a id="linklogo" href="http://www.betterform.de"><img src="{$contextPath}/rest/db/timetracker/resources/images/bf_logo_201x81.png" alt="betterFORM"/></a>
                     <div id="appName">queryTunes</div>
     
                 </div>
@@ -167,7 +167,7 @@ return
                     </div>                    
                 </div>
 
-                <img id="shadowTop" src="{$contextPath}/rest/db/betterform/apps/timetracker/resources/images/shad_top.jpg" alt=""/>
+                <img id="shadowTop" src="{$contextPath}/rest/db/timetracker/resources/images/shad_top.jpg" alt=""/>
 
 
                 <div id="albumDialog" dojotype="dijit.Dialog" style="left:200px;top:200px;position:absolute;width:auto;height:auto;" title="Album" autofocus="false">

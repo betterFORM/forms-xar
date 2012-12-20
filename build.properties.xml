@@ -18,25 +18,25 @@
     </common>
 
     <!-- betterFORM DEMO XAR -->
-    <demo>
-        <filename>bfDemos</filename>
+    <xforms>
+        <filename>bfXForms</filename>
         <!-- WARNING
             <shortname> is used for filtering purposes, must be the same as the xar element name! Here: demo
         -->
-        <shortname>demo</shortname>
+        <shortname>bf-XForms</shortname>
         <version>1.0</version>
 
         <expath>
-            <name>http://www.betterfrom.de/apps/demos</name>
-            <abbrev>bfDemos</abbrev>
-            <title>betterFORM Demos</title>
+            <name>http://www.betterfrom.de/apps/xforms</name>
+            <abbrev>bf-XForms</abbrev>
+            <title>betterFORM Demo and Reference XForms</title>
         </expath>
         <repo>
-            <description>betterFORM Demos</description>
+            <description>betterFORM Demo and Reference XForms</description>
             <status>stable</status>
             <website>http://www.betterfrom.de</website>
             <license>BSD License</license>
-            <target>/db/betterform</target>
+            <target>/db/betterform-xforms</target>
             <finish/>
             <permissions>
                 <user>admin</user>
@@ -45,38 +45,7 @@
                 <mode>rwxrwxr-x</mode>
             </permissions>
         </repo>
-    </demo>
-
-    <!-- betterFORM REFERENCE XAR -->
-    <reference>
-        <filename>bfReferences</filename>
-        <!-- WARNING
-            <shortname> is used for filtering purposes, must be the same as the xar element name! Here: reference
-        -->
-        <shortname>reference</shortname>
-        <version>1.1</version>
-        <expath>
-            <name>http://www.betterfrom.de/apps/featureexplorer</name>
-            <abbrev>featureExplorer</abbrev>
-            <title>betterFORM Feature Explorer</title>
-        </expath>
-
-        <repo>
-            <description>Feature Explorer: betterFORM References including Markup-Samples and more...</description>
-            <status>stable</status>
-            <website>http://betterform.de</website>
-            <license>BSD License</license>
-            <target>/db/betterform</target>
-            <finish/>
-            <permissions>
-                <user>admin</user>
-                <password/>
-                <group>dba</group>
-                <mode>rwxrwxr-x</mode>
-            </permissions>
-        </repo>
-
-    </reference>
+    </xforms>
 
     <!-- betterFORM Timetracker XAR -->
     <timetracker>
@@ -96,7 +65,7 @@
             <status>beta</status>
             <website>http://www.betterform.de</website>
             <license>GPLv3 License</license>
-            <target>/db/betterform/apps/timetracker</target>
+            <target>timetracker</target>
             <finish>post-install.xql</finish>
             <permissions>
                 <user>betterform</user>
@@ -125,7 +94,7 @@
             <status>alpha</status>
             <website>http://www.betterform.de</website>
             <license>GPLv3 License</license>
-            <target>/db/betterform/apps/xrxtunes</target>
+            <target>xrxtunes</target>
             <finish/>
             <permissions>
                 <user>betterform</user>
