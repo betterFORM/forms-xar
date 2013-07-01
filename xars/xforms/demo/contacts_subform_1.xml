@@ -1,6 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  ~ Copyright (c) 2012. betterFORM Project - http://www.betterform.de
+  ~ Licensed under the terms of BSD License
+  -->
+
+<div
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:xf="http://www.w3.org/2002/xforms"
+        xmlns:ev="http://www.w3.org/2001/xml-events">
     <xf:model id="address" ev:event="xforms-revalidate" ev:defaultAction="cancel">
+
+
         <xf:instance id="default">
             <address xmlns="">
                 <title/>
@@ -12,9 +22,14 @@
                 <country>Cuba</country>
             </address>
         </xf:instance>
-        <xf:submission id="s-update-master" resource="model:master#instance('contact')/data/address[index('addresses')]" replace="none" method="post">
+
+        <xf:submission id="s-update-master"
+                       resource="model:master#instance('contact')/data/address[index('addresses')]"
+                       replace="none"
+                       method="post">
             <xf:message ev:event="xforms-submit-done" level="ephemeral">Subform has updated Master.</xf:message>
         </xf:submission>
+
     </xf:model>
     <xf:group appearance="full">
         <xf:label>Addressdialog Subfrom 1</xf:label>

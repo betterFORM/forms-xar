@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><html xmlns:xf="http://www.w3.org/2002/xforms" xmlns="http://www.w3.org/1999/xhtml">
-   
    <head>
       <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
       
@@ -16,51 +15,31 @@
       <link rel="stylesheet" type="text/css" href="../../bfResources/scripts/dojox/highlight/resources/highlight.css" />
       <link rel="stylesheet" type="text/css" href="reference.css" />
    </head>
-   
    <body class="soria" style="margin:30px">
       <div id="xforms">
          <div style="display:none">
             <xf:model>
-               
                <xf:instance>
-                  
                   <data xmlns="">
-                     
                      <grouped-data constraint="true" readonly="false" required="true" relevant="true">
-                        
                         <group>
-                           
                            <a>aaa</a>
-                           
                            <b>bbb</b>
-                           
                            <c>ccc</c>
-                           
                            <d>ddd</d>
-                           
                         </group>
-                        
                      </grouped-data>
-                     
                   </data>
-                  
                </xf:instance>
-               
-               
                <xf:bind nodeset="grouped-data">
-                  
-                  <xf:bind nodeset="group" constraint="boolean-from-string(../@constraint)" readonly="boolean-from-string(../@readonly)" required="boolean-from-string(../@required)" relevant="boolean-from-string(../@relevant)"></xf:bind>
-                  
+                  <xf:bind nodeset="group" constraint="boolean-from-string(../@constraint)" readonly="boolean-from-string(../@readonly)" required="boolean-from-string(../@required)" relevant="boolean-from-string(../@relevant)">
+                     <xf:bind nodeset="(a, b,c,d)" constraint="boolean-from-string(../../@constraint)"></xf:bind>
+                  </xf:bind>
                   <xf:bind nodeset="@constraint" type="boolean"></xf:bind>
-                  
                   <xf:bind nodeset="@readonly" type="boolean"></xf:bind>
-                  
                   <xf:bind nodeset="@required" type="boolean"></xf:bind>
-                  
                   <xf:bind nodeset="@relevant" type="boolean"></xf:bind>
-                  
                </xf:bind>
-               
             </xf:model>
          </div>
          <div class="CSS">
@@ -73,8 +52,8 @@
                   </th>
                </tr>
                <tr>
-                  <td id="d13e144" onmouseover="showClass('xfContainer');" onmouseout="hideClass('xfContainer');">xfContainer
-                     <div data-dojo-type="dijit.Tooltip" connectId="d13e144">matches any Element that represents a XForms
+                  <td id="d23e165" onmouseover="showClass('xfContainer');" onmouseout="hideClass('xfContainer');">xfContainer
+                     <div data-dojo-type="dijit.Tooltip" connectId="d23e165">matches any Element that represents a XForms
                         group
                         |
                         repeat
@@ -86,8 +65,8 @@
                   </td>
                </tr>
                <tr>
-                  <td id="d13e162" onmouseover="showClass('xfMinimalGroup');" onmouseout="hideClass('xfMinimalGroup');">xfMinimalGroup
-                     <div data-dojo-type="dijit.Tooltip" connectId="d13e162">matches an Element that represents a XForms
+                  <td id="d23e183" onmouseover="showClass('xfMinimalGroup');" onmouseout="hideClass('xfMinimalGroup');">xfMinimalGroup
+                     <div data-dojo-type="dijit.Tooltip" connectId="d23e183">matches an Element that represents a XForms
                         group
                         element with
                         minimal
@@ -97,8 +76,8 @@
                   </td>
                </tr>
                <tr>
-                  <td id="d13e177" onmouseover="showClass('xfGroupLabel');" onmouseout="hideClass('xfGroupLabel');">xfGroupLabel
-                     <div data-dojo-type="dijit.Tooltip" connectId="d13e177">matches the  label of a group</div>
+                  <td id="d23e198" onmouseover="showClass('xfGroupLabel');" onmouseout="hideClass('xfGroupLabel');">xfGroupLabel
+                     <div data-dojo-type="dijit.Tooltip" connectId="d23e198">matches the  label of a group</div>
                   </td>
                </tr>
                <tr>
@@ -183,7 +162,8 @@
                      xfDisabled
                      
                      <div data-dojo-type="dijit.Tooltip" connectId="xfdisabled">
-                        matches a xforms control that is currently disabled (can't be visualized here as the control gets hidden)
+                        matches a xforms control that is currently disabled (can't be visualized here as the
+                        control gets hidden)
                         
                      </div>
                   </td>
@@ -213,16 +193,10 @@
          <div class="pageintro">
             <h1>Minimal group</h1>
             <div class="description">
-               
-               <p>
-                  A group with 'minimal'
-                  <span class="keyword">appearance</span>
-                  simply wraps the contents of the group in a span Element
-                  in the rendered output and is layout-agnostic. It should be used when no layout is implied by
-                  the group but only a XForms binding scope should be established.
-                  
+               <p>A group with 'minimal' <span class="keyword">appearance</span> simply wraps the contents of the group in a span Element in the rendered output and
+                  is layout-agnostic. It should be used when no layout is implied by the group but only
+                  a XForms binding scope should be established.
                </p>
-               
             </div>
             <table id="references">
                <tr>
@@ -230,9 +204,7 @@
                   <td style="color:#005A9C; font-size:16px;">XForms 1.1 Links</td>
                </tr>
                <tr>
-                  <td><a style="color:#005A9C;" href="http://www.w3.org/MarkUp/Forms/specs/XForms1.1/index-all.html#ui-group" target="_blank">
-                        Recommendation
-                        </a></td>
+                  <td><a style="color:#005A9C;" href="http://www.w3.org/TR/2009/REC-xforms-20091020#ui-input#ui-group" target="_blank">Recommendation</a></td>
                </tr>
                <tr>
                   <td><a style="color:#005A9C;" href="http://www.w3.org/MarkUp/Forms/2010/xforms11-qr.html#Switch" target="_blank">
@@ -242,114 +214,97 @@
             </table>
          </div>
          <h2>Example</h2>
-         <div class="Section sample">
+         <div class="Section sample">  
             <xf:group ref="grouped-data/group" appearance="minimal">
-               
                <xf:label>Group with minimal appearance</xf:label>
-               
                <xf:input ref="a">
-                  
                   <xf:label>A-label</xf:label>
-                  
+                  <xf:hint>a hint to A-label</xf:hint>
+                  <xf:alert>an alert to A-label</xf:alert>
                </xf:input>
-               
                <xf:input ref="b">
-                  
-                  <xf:label>Bb-label</xf:label>
-                  
+                  <xf:label>B-label</xf:label>
+                  <xf:hint>a hint to B-label</xf:hint>
+                  <xf:alert>an alert to B-label</xf:alert>
                </xf:input>
-               
                <xf:input ref="c">
-                  
-                  <xf:label>Ccc-label</xf:label>
-                  
+                  <xf:label>C-label</xf:label>
+                  <xf:hint>a hint to C-label</xf:hint>
+                  <xf:alert>an alert to C-label</xf:alert>
                </xf:input>
-               
                <xf:input ref="d">
-                  
-                  <xf:label>Dddd-label</xf:label>
-                  
+                  <xf:label>D-label</xf:label>
+                  <xf:hint>a hint to C-label</xf:hint>
+                  <xf:alert>an alert to C-label</xf:alert>
                </xf:input>
-               
-            </xf:group>
+            </xf:group> 
          </div>
          <div class="MIPS">
-            
             <xf:group appearance="full">
-               
                <xf:label></xf:label>
-               
                <xf:input id="input1-readonly" ref="grouped-data/@readonly" incremental="true">
-                  
                   <xf:label>readonly</xf:label>
-                  
                </xf:input>
-               
-               <xf:input id="input1-required" ref="grouped-data/@required" incremental="true">
-                  
-                  <xf:label>required</xf:label>
-                  
-               </xf:input>
-               
                <xf:input id="input1-relevant" ref="grouped-data/@relevant" incremental="true">
-                  
                   <xf:label>relevant</xf:label>
-                  
                </xf:input>
-               
                <xf:input id="input1-valid" ref="grouped-data/@constraint" incremental="true">
-                  
                   <xf:label>valid</xf:label>
-                  
                </xf:input>
-               
             </xf:group>
-            
          </div>
          <h2>XForms Markup</h2>
-         <div class="Section markup"><pre><code class="xml" data-dojo-type="dojox.highlight.Code">&lt;xf:group ref="grouped-data/group" appearance="minimal"&gt;
+         <div class="Section markup"><pre><code class="xml" data-dojo-type="dojox.highlight.Code">
+&lt;xf:group ref="grouped-data/group" appearance="minimal"&gt;
     &lt;xf:label&gt;Group with minimal appearance&lt;/xf:label&gt;
     &lt;xf:input ref="a"&gt;
         &lt;xf:label&gt;A-label&lt;/xf:label&gt;
+        &lt;xf:hint&gt;a hint to A-label&lt;/xf:hint&gt;
+        &lt;xf:alert&gt;an alert to A-label&lt;/xf:alert&gt;
     &lt;/xf:input&gt;
     &lt;xf:input ref="b"&gt;
-        &lt;xf:label&gt;Bb-label&lt;/xf:label&gt;
+        &lt;xf:label&gt;B-label&lt;/xf:label&gt;
+        &lt;xf:hint&gt;a hint to B-label&lt;/xf:hint&gt;
+        &lt;xf:alert&gt;an alert to B-label&lt;/xf:alert&gt;
     &lt;/xf:input&gt;
     &lt;xf:input ref="c"&gt;
-        &lt;xf:label&gt;Ccc-label&lt;/xf:label&gt;
+        &lt;xf:label&gt;C-label&lt;/xf:label&gt;
+        &lt;xf:hint&gt;a hint to C-label&lt;/xf:hint&gt;
+        &lt;xf:alert&gt;an alert to C-label&lt;/xf:alert&gt;
     &lt;/xf:input&gt;
     &lt;xf:input ref="d"&gt;
-        &lt;xf:label&gt;Dddd-label&lt;/xf:label&gt;
+        &lt;xf:label&gt;D-label&lt;/xf:label&gt;
+        &lt;xf:hint&gt;a hint to C-label&lt;/xf:hint&gt;
+        &lt;xf:alert&gt;an alert to C-label&lt;/xf:alert&gt;
     &lt;/xf:input&gt;
 &lt;/xf:group&gt;
 </code></pre></div>
       </div><script type="text/javascript">
-                function showClass(cssClass){
-                    require(["dojo/query", "dojo/dom-class"], function(query, domClass){
-                        query('.sample .'+ cssClass).forEach(function(item){
-                            domClass.add(item,'showClass');
+                function showClass(cssClass) {
+                    require(["dojo/query", "dojo/dom-class"], function (query, domClass) {
+                        query('.sample .' + cssClass).forEach(function (item) {
+                            domClass.add(item, 'showClass');
                         });
                     });
                 }
 
-                function hideClass(cssClass){
-                    require(["dojo/query", "dojo/dom-class"], function(query, domClass){
-                        query('.sample .'+ cssClass).forEach(function(item){
-                            domClass.remove(item,'showClass');
+                function hideClass(cssClass) {
+                    require(["dojo/query", "dojo/dom-class"], function (query, domClass) {
+                        query('.sample .' + cssClass).forEach(function (item) {
+                            domClass.remove(item, 'showClass');
                         });
                     });
                 }
 
-                require(["dojo/parser","dojo/_base/connect", "dijit/Tooltip", "dojo/dom", "dojox/highlight", "dojox/highlight/languages/_all", "dojox/highlight/widget/Code", "dojo/domReady!"],
-                    function(parser,connect, Tooltip,dom) {
-                        var xforms = dom.byId("xforms");
-                        // console.debug("parse ",xforms);
-                        parser.parse(xforms);
-                        connect.subscribe("/xf/ready", function(){
-                            fluxProcessor.skipshutdown=true;
-                        });
-                    }
+                require(["dojo/parser", "dojo/_base/connect", "dijit/Tooltip", "dojo/dom", "dojox/highlight", "dojox/highlight/languages/_all", "dojox/highlight/widget/Code", "dojo/domReady!"],
+                        function (parser, connect, Tooltip, dom) {
+                            var xforms = dom.byId("xforms");
+                            // console.debug("parse ",xforms);
+                            parser.parse(xforms);
+                            connect.subscribe("/xf/ready", function () {
+                                fluxProcessor.skipshutdown = true;
+                            });
+                        }
                 );
             </script></body>
-   
 </html>
