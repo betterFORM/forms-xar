@@ -175,7 +175,7 @@ declare function local:handleFile($uri as xs:string, $contextPath as xs:string, 
 	let $fileLink := if ($referenceLink eq 'Demo.xhtml' and not(contains($path, 'forms/demo'))) then ( fn:concat('forms/demo/', $referenceLink)) else ($referenceLink)
 	let $fileName := if (fn:contains($fileName, '.xhtml')) then( functx:substring-before-last($fileName, '.xhtml') ) else ( $fileName )
 	let $shortendFileName := if (fn:string-length($fileName) gt 15 and $shorten eq 'true') then (fn:concat(fn:substring($fileName,0,10), '...', fn:substring($fileName, fn:string-length($fileName) -5))) else ($fileName)  
-	let $filePath := functx:substring-before-last($uri, 'apps/betterform/modules')
+	let $filePath := functx:substring-before-last($uri, 'rest/db/apps/betterform/modules')
 	let $ignores := 'build.xml collection.xconf controller.xql dashboard.html expath-pkg.xml pre-install.xql repo.xml error-page.html icon.png'
 	return
 	if (fn:not(fn:contains($ignores, $fileName))) then (	
@@ -259,9 +259,9 @@ declare function local:getHTMLFilesListing($uri as xs:string, $contextPath as xs
 			 	  {local:generateCrumbs($uri, $path, $ajaxFunction)}
             </div>
 			<div id="commands">
-                  {local:generateExistAdminClientMarkup($uri, $contextPath, $path)}
-                  {local:generateCollectionMarkup($uri, $contextPath, $path, $altTextCreateCollection)}
-									{local:generateUploadMarkup($uri, $contextPath, $path, $altTextFormUpload)}
+                {local:generateExistAdminClientMarkup($uri, $contextPath, $path)}
+                {local:generateCollectionMarkup($uri, $contextPath, $path, $altTextCreateCollection)}
+                {local:generateUploadMarkup($uri, $contextPath, $path, $altTextFormUpload)}
   			</div>
 		</div>
 			
