@@ -19,7 +19,7 @@
 
     <!-- betterFORM DEMO XAR -->
     <xforms>
-        <filename>bfXForms</filename>
+        <filename>bf-XForms</filename>
         <!-- WARNING
             <shortname> is used for filtering purposes, must be the same as the xar element name! Here: demo
         -->
@@ -49,7 +49,7 @@
 
     <!-- betterFORM Timetracker XAR -->
     <timetracker>
-        <filename>bfTimetracker</filename>
+        <filename>bf-timetracker</filename>
         <!-- WARNING
             <shortname> is used for filtering purposes, must be the same as the xar element name! Here: timetracker
         -->
@@ -57,7 +57,7 @@
         <version>0.9</version>
         <expath>
             <name>http://www.betterfrom.de/apps/timetracker</name>
-            <abbrev>betterFORM Timetracker</abbrev>
+            <abbrev>bf-trimetracker</abbrev>
             <title>Timetracker</title>
         </expath>
         <repo>
@@ -86,7 +86,7 @@
         <version>0.9</version>
         <expath>
             <name>http://www.betterfrom.de/apps/xrxtunes</name>
-            <abbrev>betterFORM XRX Tunes</abbrev>
+            <abbrev>xrxtunes</abbrev>
             <title>XRXTunes</title>
         </expath>
         <repo>
