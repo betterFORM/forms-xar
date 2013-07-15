@@ -114,7 +114,7 @@ declare function local:generateExistAdminClientMarkup($uri as xs:string, $contex
 <div class="eXistAdminClient" >
 	<span class="label">
 		<a href="{fn:concat($contextPath,'/webstart/exist.jnlp')}">
-			<img style="height:28px;width:28px;" src="{fn:concat($contextPath, '/bfResources/images/eXist-admin.png')}" title="download eXist Admin Client"/>
+			<img style="height:28px;width:28px;" src="{fn:concat($contextPath, '/apps/dashboard/resources/images/package.png')}" title="download eXist Admin Client"/>
 		</a>
 	</span>
 </div>
