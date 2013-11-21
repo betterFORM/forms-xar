@@ -30,7 +30,7 @@
     margin-top: 1em;
 }
 #closeFilter-value{
-    background-image:url(/betterform/rest/db/betterform/apps/timetracker/resources/images/search.gif);
+    background-image:url(/betterform/rest/db/timetracker/resources/images/search.gif);
     width:24px;
     height:24px;
 }

@@ -10,10 +10,8 @@
     <!-- Internal build properties -->
     <property name="target.dir" value="target" description="directoy where all artefacts of the build are placed "/>
     <property name="templates.dir" value="${basedir}/templates/xar" description="templates for XAR files, some of them get filtered"/>
-    <property name="demo.src.dir" value="${basedir}/xars/demo" description="demo source directory"/>
-    <property name="demo.dir" value="${target.dir}/demo" description="demo target directory"/>
-    <property name="reference.src.dir" value="${basedir}/xars/reference" description="reference source directory"/>
-    <property name="reference.dir" value="${target.dir}/reference" description="reference target directory"/>
+    <property name="xforms.src.dir" value="${basedir}/xars/xforms" description="xforms source directory"/>
+    <property name="xforms.dir" value="${target.dir}/xforms" description="xforms target directory"/>
     <property name="timetracker.src.dir" value="${basedir}/xars/timetracker" description="timetracker source directory"/>
     <property name="timetracker.dir" value="${target.dir}/timetracker" description="timetracker target directory"/>
     <property name="xrxtunes.src.dir" value="${basedir}/xars/xrxtunes" description="xrxtunes source directory"/>
@@ -27,38 +25,23 @@
 
     <target name="build-all" description="build demo, reference and timetracker XARS">
         <mkdir dir="${target.dir}"/>
-        <antcall target="create-demo-xar"/>
-        <antcall target="create-reference-xar"/>
+        <antcall target="create-xforms-xar"/>
         <antcall target="create-timetracker-xar"/>
         <antcall target="create-xrxtunes-xar"/>
     </target>
 
 
-    <!-- DEMO XAR -->
-    <!-- DEMO XAR -->
-    <!-- DEMO XAR -->
 
-    <target name="create-demo-xar"  description="create demo.xar">
-        <ant antfile="${basedir}/templates/build/build-demo.xml"
-             target="prepare-demo-xar"
+
+    <target name="create-xforms-xar"  description="create xforms.xar">
+        <ant antfile="${basedir}/templates/build/build-xforms.xml"
+             target="prepare-xforms-xar"
              inheritall="true"/>
-        <ant antfile="${basedir}/templates/build/build-demo.xml"
-             target="create-demo-xar"
+        <ant antfile="${basedir}/templates/build/build-xforms.xml"
+             target="create-xforms-xar"
              inheritall="true"/>
     </target>
 
-
-    <!-- REFERENCE XAR -->
-    <!-- REFERENCE XAR -->
-    <!-- REFERENCE XAR -->
-    <target name="create-reference-xar"  description="create reference.xar">
-        <ant antfile="${basedir}/templates/build/build-reference.xml"
-                target="prepare-reference-xar"
-                inheritall="true"/>
-        <ant antfile="${basedir}/templates/build/build-reference.xml"
-                target="create-reference-xar"
-                inheritall="true"/>
-    </target>
     
     <!-- TIMETRACKER XAR -->
     <!-- TIMETRACKER XAR -->
@@ -93,7 +76,7 @@
     <target name="update-xar-builder" description="update build.xml files to create xars">
         <filter token="APP_NAME" value="${demo.shortname}"/>
         <copy file="${basedir}/templates/build/create-xar.xml"
-              tofile="${basedir}/templates/build/build-demo.xml"
+              tofile="/templates/build/build-xforms.xml"
               overwrite="true"
               filtering="true"/>
 

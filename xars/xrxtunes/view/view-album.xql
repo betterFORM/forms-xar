@@ -28,7 +28,7 @@ declare function local:millisecondsToDuration($duration as xs:double)  {
 (: creates the output for all tasks matching the query :)
 declare function local:viewAlbum() as node() * {     
      let $albumId := request:get-parameter("album", "")
-     for $track in collection('/db/betterform/apps/querytunes/data')//album[@id=$albumId]//track
+     for $track in collection('/db/querytunes/data')//album[@id=$albumId]//track
         order by number($track/@trackNumber)
         return
             <tr class="tableBody">
@@ -42,13 +42,13 @@ declare function local:viewAlbum() as node() * {
 
 declare function local:getAlbumMetadata() as node() {
     let $albumId := request:get-parameter("album", "")
-    let $album := collection('/db/betterform/apps/querytunes/data')//album[@id=$albumId]
+    let $album := collection('/db/querytunes/data')//album[@id=$albumId]
     return 
         <h1 id="albumHeader">{$album/artist/text()} : {$album/name/text()} Duration: {local:millisecondsToDuration(sum($album//track/@time))}</h1>
 };
 declare function local:getArtist() as xs:string {
     let $albumId := request:get-parameter("album", "")
-    let $album := collection('/db/betterform/apps/querytunes/data')//album[@id=$albumId]
+    let $album := collection('/db/querytunes/data')//album[@id=$albumId]
     return 
         $album/artist
 };

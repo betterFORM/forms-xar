@@ -222,7 +222,7 @@ require(["dojox/fx","dojo/_base/fx","dojo/fx","dojo/fx/easing", "dojo/dom-style"
                     },
                     onPlay:function(){
                         // console.debug("onPlay");
-                        var uri = "utils/FormsQuery.xql";
+                        var uri = "modules/FormsQuery.xql";
                         win.load(uri);
                     },
                     onEnd:function(){
@@ -314,7 +314,7 @@ require(["dojox/fx","dojo/_base/fx","dojo/fx","dojo/fx/easing", "dojo/dom-style"
 
             dojo.addOnLoad(function() {
                 console.debug("dojo.addOnLoad");
-                var uri = "utils/FormsQuery.xql";
+                var uri = "modules/FormsQuery.xql";
                 if(dojo.isIE){
                     console.debug("is IE: load Forms");
                     win.load(uri,true);
@@ -355,7 +355,7 @@ sendFile =function() {
             // console.debug("sendFile.dojo.io.iframe.send");
             dojo.io.iframe.send({
 
-                url: "utils/upload-document.xql",
+                url: "modules/upload-document.xql",
                 method: "post",
                 handleAs: "text",
                 form: query(".upload")[0],
@@ -391,7 +391,7 @@ createCollection = function() {
         } else {
             // console.debug("createCollection");
             iframe.send({
-                url: "utils/create-collection.xql",
+                url: "modules/create-collection.xql",
                 method: "post",
                 handleAs: "text",
                 form: query(".createCollection")[0],
