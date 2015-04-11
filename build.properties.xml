@@ -9,7 +9,7 @@
         <name>betterFORM</name>
         <version>
             <name>springBud</name>
-            <number>5.0rc5</number>
+            <number>5.0</number>
         </version>
         <templateDir>templates</templateDir>
         <expath>
@@ -24,7 +24,7 @@
             <shortname> is used for filtering purposes, must be the same as the xar element name! Here: demo
         -->
         <shortname>bf-XForms</shortname>
-        <version>1.3</version>
+        <version>1.4</version>
 
         <expath>
             <name>http://www.betterfrom.de/apps/xforms</name>
