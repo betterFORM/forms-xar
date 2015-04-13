@@ -15,4 +15,5 @@
     <prepare>pre-install.xql</prepare>
     <finish>@REP_FINISH@</finish>
     <permissions user="@REP_USER@" password="@REP_PWD@" group="@REP_GROUP@" mode="@REP_MODE@"/>
+    <dependency processor="http://exist-db.org" semver-min="2.3.0"/>
 </meta>
