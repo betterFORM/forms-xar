@@ -1,3 +1,6 @@
-build/*
+target/*
 demo/build/*
 reference/build/*
+/nbproject/private/
+project.xml
+project.properties
